@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject ProjectType="Visual C++" Version="9.00" Name="CADCommTools" ProjectGUID="{9A686E24-9DA4-4EFD-8B06-90DBE951A5C9}" RootNamespace="CADCommTools" TargetFrameworkVersion="196613">
+  <Platforms>
+    <Platform Name="Win32" />
+    <Platform Name="x64" />
+  </Platforms>
+  <ToolFiles>
+  </ToolFiles>
+  <Configurations>
+    <Configuration Name="Debug|Win32" OutputDirectory="..\Debug\sys18" IntermediateDirectory="..\TMP\Debug\sys18\CADCommTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;_AFXEXT;_ACRXAPP;_ARXDEBUG" StringPooling="false" MinimalRebuild="true" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="4" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADCommTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OutDir)/CADCommTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADCommTools.lib" TargetMachine="1" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Debug|x64" OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)" IntermediateDirectory="$(PlatformName)\$(ConfigurationName)" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" TargetEnvironment="3" />
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="false" MinimalRebuild="true" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="3" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADCommTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OutDir)/CADCommTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADCommTools.lib" TargetMachine="17" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Release|Win32" OutputDirectory="..\Release\sys18" IntermediateDirectory="..\TMP\Release\sys18\CADCommTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP" StringPooling="true" MinimalRebuild="false" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="0" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADCommTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="false" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADCommTools.lib" TargetMachine="1" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Release|x64" OutputDirectory="Release18(X64)" IntermediateDirectory="Release18(X64)" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" TargetEnvironment="3" />
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="_WIN64;_WINDOWS;CADCOMMTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP" StringPooling="true" MinimalRebuild="false" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="0" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADCommTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="false" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADCommTools.lib" TargetMachine="17" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;idl;odl">
+      <File RelativePath=".\AcCommFunction.cpp">
+      </File>
+      <File RelativePath=".\AcEdSSGetFilterEx.cpp">
+      </File>
+      <File RelativePath=".\acrxEntryPoint.cpp">
+      </File>
+      <File RelativePath=".\ByteString.cpp">
+      </File>
+      <File RelativePath=".\CADCommTools.cpp">
+      </File>
+      <File RelativePath=".\CommCommand.cpp">
+      </File>
+      <File RelativePath=".\CurveCommCommand.cpp">
+      </File>
+      <File RelativePath=".\DES.cpp">
+      </File>
+      <File RelativePath=".\DocData.cpp">
+      </File>
+      <File RelativePath=".\GAcGroupFunction.cpp">
+      </File>
+      <File RelativePath=".\GBarCodeDialog.cpp">
+      </File>
+      <File RelativePath=".\GBarCodeJig.cpp">
+      </File>
+      <File RelativePath=".\GBarcodeMgr.cpp">
+      </File>
+      <File RelativePath=".\GCommandReactor.cpp">
+      </File>
+      <File RelativePath=".\GComputerId.cpp">
+      </File>
+      <File RelativePath=".\GEntAlignDialog.cpp">
+      </File>
+      <File RelativePath=".\GEntAverPosDialog.cpp">
+      </File>
+      <File RelativePath=".\GExportDimensionDialog.cpp">
+      </File>
+      <File RelativePath=".\GHighlightHelper.cpp">
+      </File>
+      <File RelativePath=".\GItemSelectDialog.cpp">
+      </File>
+      <File RelativePath=".\GJoinDwgDialog.cpp">
+      </File>
+      <File RelativePath=".\GJoinDwgHelper.cpp">
+      </File>
+      <File RelativePath=".\GMenu.cpp">
+      </File>
+      <File RelativePath=".\GMousePreviewDialog.cpp">
+      </File>
+      <File RelativePath=".\GMousePreviewDocReactor.cpp">
+      </File>
+      <File RelativePath=".\GMultiJig.cpp">
+      </File>
+      <File RelativePath=".\GMultiJigEntity.cpp">
+      </File>
+      <File RelativePath=".\GMultJigEnt.cpp">
+      </File>
+      <File RelativePath=".\GPurgeCommCommand.cpp">
+      </File>
+      <File RelativePath=".\GPurgeDialog.cpp">
+      </File>
+      <File RelativePath=".\GQrCodeCommand.cpp">
+      </File>
+      <File RelativePath=".\GQrCodeDialog.cpp">
+      </File>
+      <File RelativePath=".\GQrCodeJIg.cpp">
+      </File>
+      <File RelativePath=".\GQRCodeManager.cpp">
+      </File>
+      <File RelativePath=".\GQrCodeMgr.cpp">
+      </File>
+      <File RelativePath=".\GRegDialog.cpp">
+      </File>
+      <File RelativePath=".\GSimpleSelDialog.cpp">
+      </File>
+      <File RelativePath=".\GTableAlignDialog.cpp">
+      </File>
+      <File RelativePath=".\GxAfxFunction.cpp">
+      </File>
+      <File RelativePath=".\GZYJXJig.cpp">
+      </File>
+      <File RelativePath=".\HDID.cpp">
+      </File>
+      <File RelativePath=".\IEHelper.cpp">
+      </File>
+      <File RelativePath=".\LineCrossReportFunction.cpp">
+      </File>
+      <File RelativePath=".\LineCrossReportPanel.cpp">
+      </File>
+      <File RelativePath=".\LineCrossReportPanelChildDlg.cpp">
+      </File>
+      <File RelativePath=".\LinkLable.cpp">
+      </File>
+      <File RelativePath=".\md5.cpp">
+      </File>
+      <File RelativePath=".\ParcelViewInputPoint.cpp">
+      </File>
+      <File RelativePath=".\QR_Encode.cpp">
+      </File>
+      <File RelativePath=".\StdAfx.cpp">
+        <FileConfiguration Name="Debug|Win32">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Debug|x64">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Release|Win32">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Release|x64">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath=".\XlsCommCommand.cpp">
+      </File>
+    </Filter>
+    <Filter Name="Include Files" Filter="h;hh;hxx">
+      <File RelativePath=".\AcCommFunction.h">
+      </File>
+      <File RelativePath=".\AcDbEntityPointerEx.h">
+      </File>
+      <File RelativePath=".\AcEdSSGetFilterEx.h">
+      </File>
+      <File RelativePath=".\ByteString.h">
+      </File>
+      <File RelativePath=".\CommCommand.h">
+      </File>
+      <File RelativePath=".\CurveCommCommand.h">
+      </File>
+      <File RelativePath=".\DES.h">
+      </File>
+      <File RelativePath=".\DocData.h">
+      </File>
+      <File RelativePath=".\ExportHeaders.h">
+      </File>
+      <File RelativePath=".\GAcGroupFunction.h">
+      </File>
+      <File RelativePath=".\GBarCodeDialog.h">
+      </File>
+      <File RelativePath=".\GBarCodeJig.h">
+      </File>
+      <File RelativePath=".\GBarcodeMgr.h">
+      </File>
+      <File RelativePath=".\GCommandReactor.h">
+      </File>
+      <File RelativePath=".\GComputerId.h">
+      </File>
+      <File RelativePath=".\GEntAlignDialog.h">
+      </File>
+      <File RelativePath=".\GEntAverPosDialog.h">
+      </File>
+      <File RelativePath=".\GExportDimensionDialog.h">
+      </File>
+      <File RelativePath=".\GHighlightHelper.h">
+      </File>
+      <File RelativePath=".\GItemSelectDialog.h">
+      </File>
+      <File RelativePath=".\GJoinDwgDialog.h">
+      </File>
+      <File RelativePath=".\GJoinDwgHelper.h">
+      </File>
+      <File RelativePath=".\GlobalDefine.h">
+      </File>
+      <File RelativePath=".\GLockDocument.h">
+      </File>
+      <File RelativePath=".\GMenu.h">
+      </File>
+      <File RelativePath=".\GMousePreviewDialog.h">
+      </File>
+      <File RelativePath=".\GMousePreviewDocReactor.h">
+      </File>
+      <File RelativePath=".\GMultiJig.h">
+      </File>
+      <File RelativePath=".\GMultiJigEntity.h">
+      </File>
+      <File RelativePath=".\GMultJigEnt.h">
+      </File>
+      <File RelativePath=".\GPurgeCommCommand.h">
+      </File>
+      <File RelativePath=".\GPurgeDialog.h">
+      </File>
+      <File RelativePath=".\GQrCodeCommand.h">
+      </File>
+      <File RelativePath=".\GQrCodeDialog.h">
+      </File>
+      <File RelativePath=".\GQrCodeJIg.h">
+      </File>
+      <File RelativePath=".\GQRCodeManager.h">
+      </File>
+      <File RelativePath=".\GQrCodeMgr.h">
+      </File>
+      <File RelativePath=".\GRegDialog.h">
+      </File>
+      <File RelativePath=".\GSimpleSelDialog.h">
+      </File>
+      <File RelativePath=".\GTableAlignDialog.h">
+      </File>
+      <File RelativePath=".\GxAfxFunction.h">
+      </File>
+      <File RelativePath=".\GZYJXJig.h">
+      </File>
+      <File RelativePath=".\HDID.h">
+      </File>
+      <File RelativePath=".\IEHelper.h">
+      </File>
+      <File RelativePath=".\LineCrossReportFunction.h">
+      </File>
+      <File RelativePath=".\LineCrossReportPanel.h">
+      </File>
+      <File RelativePath=".\LineCrossReportPanelChildDlg.h">
+      </File>
+      <File RelativePath=".\LinkLable.h">
+      </File>
+      <File RelativePath=".\md5.h">
+      </File>
+      <File RelativePath=".\ParcelViewInputPoint.h">
+      </File>
+      <File RelativePath=".\QR_Encode.h">
+      </File>
+      <File RelativePath=".\Resource.h">
+      </File>
+      <File RelativePath=".\SortArray.h">
+      </File>
+      <File RelativePath=".\StdAfx.h">
+      </File>
+      <File RelativePath=".\XlsCommCommand.h">
+      </File>
+      <File RelativePath=".\GRegDefine.h" />
+    </Filter>
+    <Filter Name="Resource Files" Filter="rc;ico;bmp;cur;jpg;gif">
+      <File RelativePath=".\AverPos\AverXCenter.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverXLeft.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverXRight.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverXRightLeft.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverYBottom.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverYBottomTop.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverYCenter.bmp">
+      </File>
+      <File RelativePath=".\AverPos\AverYTop.bmp">
+      </File>
+      <File RelativePath=".\CADCommTools.rc">
+      </File>
+      <File RelativePath=".\Align\XCenter.bmp">
+      </File>
+      <File RelativePath=".\Align\XLeft.bmp">
+      </File>
+      <File RelativePath=".\Align\XRight.bmp">
+      </File>
+      <File RelativePath=".\Align\YBottom.bmp">
+      </File>
+      <File RelativePath=".\Align\YCenter.bmp">
+      </File>
+      <File RelativePath=".\Align\YTop.bmp">
+      </File>
+    </Filter>
+    <Filter Name="Miscellaneous Files" Filter="reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj">
+    </Filter>
+    <Filter Name="Base">
+      <Filter Name="Afx">
+        <Filter Name="Include Files">
+          <File RelativePath=".\GWndEx.h" />
+        </Filter>
+      </Filter>
+    </Filter>
+    <Filter Name="Command">
+      <Filter Name="Source Files">
+        <File RelativePath=".\Command_HatchStatistics.cpp" />
+      </Filter>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="RESOURCE_FILE" Value="CADCommTools.rc" />
+  </Globals>
+</VisualStudioProject>

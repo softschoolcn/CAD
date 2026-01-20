@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53850a7f-331a-4eae-9bb0-fee9875321bc}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{c7f21735-b6ce-4de7-b086-b27d0333f80a}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d1c70ff8-195a-4b60-972f-bbd918ba1fac}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{4d0fef28-07a6-41dd-b5c3-c2c22736f668}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CADGlobalTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCADUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GStringHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAcadError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IdsTrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMTextFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GStringMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUserDataRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinateD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalSystemValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFileTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GColorRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GSameColorHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GSelectHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GTempIntVarHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GLayerUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GSortentsTableTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCADUtils.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalToolsHeaders.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GStringHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAcadError.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IdsTrans.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumEntity.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMTextFun.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GStringMatch.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUserDataRecord.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxD.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineD.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateD.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSystemValue.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GZoom.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFileTools.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GColorRecord.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GSameColorHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GSelectHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GTempIntVarHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GLayerUtils.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GSortentsTableTools.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CADGlobalTools.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

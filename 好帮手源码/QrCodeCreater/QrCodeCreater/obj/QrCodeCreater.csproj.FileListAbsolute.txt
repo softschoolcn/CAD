@@ -1,0 +1,12 @@
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Debug\ResolveAssemblyReference.cache
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Debug\QrCodeCreater.exe
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Debug\QrCodeCreater.pdb
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Debug\ThoughtWorks.QRCode.dll
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Debug\QrCodeCreater.exe
+F:\code\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Debug\QrCodeCreater.pdb
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Release\QrCodeCreater.exe
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Release\QrCodeCreater.pdb
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\bin\Release\ThoughtWorks.QRCode.dll
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Release\ResolveAssemblyReference.cache
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Release\QrCodeCreater.exe
+D:\code\selft\cad\HBS\QrCodeCreater\QrCodeCreater\obj\Release\QrCodeCreater.pdb

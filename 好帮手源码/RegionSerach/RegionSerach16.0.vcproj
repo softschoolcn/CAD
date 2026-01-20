@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject ProjectType="Visual C++" Version="7.00" Name="RegionSerach" ProjectGUID="{C1CE1C90-A1B8-4EC0-B8FA-7235BAF4C4CD}">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <Configurations>
+    <Configuration Name="Debug|Win32" OutputDirectory="..\Debug\sys16.0" IntermediateDirectory="..\TMP\Debug\sys16.0" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalIncludeDirectories="D:\GOLD_CODE\LIB库文件\objectarx2004\inc" PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;REGIONSERACH_MODULE;_AFXEXT;_ACRXAPP" StringPooling="FALSE" MinimalRebuild="TRUE" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="4" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/RegionSerach.arx" LinkIncremental="2" AdditionalLibraryDirectories="D:\GOLD_CODE\LIB库文件\objectARX2004\lib" LinkDLL="TRUE" ModuleDefinitionFile="RegionSerach.def" GenerateDebugInformation="TRUE" ProgramDatabaseFile="$(OutDir)/RegionSerach.pdb" SubSystem="2" ImportLibrary="$(OutDir)/RegionSerach.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+    <Configuration Name="Release|Win32" OutputDirectory="..\Release\sys16.0" IntermediateDirectory="..\TMP\Release\sys16.0\RegionSerach" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalIncludeDirectories="&quot;C:\lib\ObjectARX 2004\utils\brep\inc&quot;;&quot;C:\lib\ObjectARX 2004\inc&quot;" PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;REGIONSERACH_MODULE;_AFXEXT;_ACRXAPP;ACAD_2004" StringPooling="TRUE" MinimalRebuild="FALSE" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="0" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" AdditionalDependencies="acbr16.lib" OutputFile="$(outdir)/RegionSerach.arx" LinkIncremental="2" AdditionalLibraryDirectories="&quot;C:\lib\ObjectARX 2004\utils\brep\lib&quot;;&quot;C:\lib\ObjectARX 2004\lib&quot;" LinkDLL="TRUE" ModuleDefinitionFile="RegionSerach.def" GenerateDebugInformation="FALSE" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/RegionSerach.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;idl;odl">
+      <File RelativePath="AcProgressBar.cpp">
+      </File>
+      <File RelativePath="DocData.cpp">
+      </File>
+      <File RelativePath="GetRegCommands.cpp">
+      </File>
+      <File RelativePath="MainFunction.cpp">
+      </File>
+      <File RelativePath="RegionInputPointMonitor.cpp">
+      </File>
+      <File RelativePath="RegionSerach.cpp">
+      </File>
+      <File RelativePath="RegionSerach.def">
+      </File>
+      <File RelativePath="StdAfx.cpp">
+      </File>
+      <File RelativePath="XdDbUtils.cpp">
+      </File>
+      <File RelativePath="acrxEntryPoint.cpp">
+      </File>
+    </Filter>
+    <Filter Name="Include Files" Filter="h;hh;hxx">
+      <File RelativePath="AcProgressBar.h">
+      </File>
+      <File RelativePath="AdskDMgr.h">
+      </File>
+      <File RelativePath="DocData.h">
+      </File>
+      <File RelativePath="MainFunction.h">
+      </File>
+      <File RelativePath="RegionInputPointMonitor.h">
+      </File>
+      <File RelativePath="Resource.h">
+      </File>
+      <File RelativePath="StdAfx.h">
+      </File>
+      <File RelativePath="XdDbUtils.h">
+      </File>
+    </Filter>
+    <Filter Name="Resource Files" Filter="rc;ico;bmp;cur;jpg;gif">
+      <File RelativePath="RegionSerach.rc">
+      </File>
+    </Filter>
+    <Filter Name="Miscellaneous Files" Filter="reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>

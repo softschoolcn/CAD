@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Root>
+<Types>
+<Param Name="AcDbLine" Alias="直线"  />
+<Param Name="AcDbPolyline" Alias="多段线"  />
+<Param Name="AcDbCircle" Alias="圆"  />
+<Param Name="AcDbArc" Alias="圆弧"  />
+<Param Name="AcDbEllipse" Alias="椭圆"  />
+<Param Name="AcDbXline" Alias="构造线"  />
+<Param Name="AcDbRay" Alias="射线"  />
+<Param Name="AcDbLeader" Alias="引线"  />
+<Param Name="AcDbSpline" Alias="样条曲线"  />
+<Param Name="AcDbMText" Alias="多行文字"  />
+<Param Name="AcDbText" Alias="文字"  />
+<Param Name="AcDbAttributeDefinition" Alias="属性定义"  />
+<Param Name="AcDbBlockReference" Alias="块参照"  />
+<Param Name="AcDbDimension" Alias="标注"  />
+<Param Name="AcDbAlignedDimension" Alias="对齐标注"  />
+<Param Name="AcDbRotatedDimension" Alias="转角标注"  />
+<Param Name="AcDbRadialDimension" Alias="半径标注"  />
+<Param Name="AcDbDiametricDimension" Alias="直径标注"  />
+<Param Name="AcDb3PointAngularDimension" Alias="角度标注(三点)"  />
+<Param Name="AcDbOrdinateDimension" Alias="坐标标注"  />
+<Param Name="AcDb2LineAngularDimension" Alias="角度标注(两条直线)"  />
+<Param Name="AcDbPoint" Alias="点"  />
+<Param Name="AcDbHatch" Alias="填充"  />
+</Types>
+</Root>

@@ -1,0 +1,342 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "CADConfigTools ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "CADConfigTools"
+            VALUE "LegalCopyright", "Copyright ?2002"
+            VALUE "OriginalFilename", "CADConfigTools.arx"
+            VALUE "ProductName", "CADConfigTools Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CONFIG DIALOGEX 0, 0, 355, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,201,258,50,14
+    PUSHBUTTON      "取消",IDCANCEL,264,258,50,14
+    CONTROL         "",IDC_TAB_MAIN,"SysTabControl32",0x0,11,10,333,243
+END
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 329, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "比例设定",IDC_STATIC,5,3,186,47
+    LTEXT           "绘图比例1:",IDC_STATIC,10,18,40,8
+    LTEXT           "出图比例1:",IDC_STATIC,10,32,40,8
+    COMBOBOX        IDC_COMBO_HTBL,56,15,61,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CTBL,56,31,61,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "设为默认",IDC_CHECK_HTBL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,17,48,10
+    CONTROL         "设为默认",IDC_CHECK_CTBL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,32,48,10
+    GROUPBOX        "系统设定",IDC_STATIC,6,57,186,95
+    CONTROL         "使用屏幕菜单",IDC_CHECK_SCREENMENU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,72,64,10
+    CONTROL         "使用CAD菜单",IDC_CHECK_CADMENU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,86,62,10
+END
+
+IDD_DIALOG_LAYER DIALOGEX 0, 0, 329, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "自定义1",IDC_GRID,"MFCGridCtrl",WS_TABSTOP,5,5,314,202
+END
+
+IDD_DIALOG_DIM DIALOGEX 0, 0, 329, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_PREVIEW,9,7,168,119
+    LTEXT           "箭头样式",IDC_STATIC,23,143,33,8
+    COMBOBOX        IDC_COMBO_ARROW,62,141,81,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "两侧出头A",IDC_STATIC,190,14,38,8
+    COMBOBOX        IDC_COMBO_LCCTA,232,11,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "下侧出头B",IDC_STATIC,190,29,37,8
+    COMBOBOX        IDC_COMBO_DIMEXE,232,26,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "基准距离C",IDC_STATIC,190,45,38,8
+    COMBOBOX        IDC_COMBO_DIMEX0,232,41,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "标准字体",IDC_STATIC,190,82,33,8
+    COMBOBOX        IDC_COMBO_COMMFONT,232,78,68,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "大字体",IDC_STATIC,190,97,25,8
+    COMBOBOX        IDC_COMBO_BIGFONT,232,93,68,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "文字高度",IDC_STATIC,190,110,33,8
+    COMBOBOX        IDC_COMBO_TEXTHEIGHT,232,108,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "文字宽高比",IDC_STATIC,190,125,41,8
+    COMBOBOX        IDC_COMBO_TEXTWH,232,123,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Button1",IDC_BUTTON_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,233,141,68,14
+    LTEXT           "字体颜色",IDC_STATIC,190,143,33,8
+    LTEXT           "小数点位数",IDC_STATIC,190,60,41,8
+    COMBOBOX        IDC_COMBO_XSD,232,56,68,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "更新\r\n字体",IDC_BUTTON_UPDATEFONTS,302,79,23,26,BS_MULTILINE
+END
+
+IDD_DIALOG_COMMANDALIAS DIALOGEX 0, 0, 329, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "自定义1",IDC_GRID,"MFCGridCtrl",WS_TABSTOP,1,16,325,196
+    LTEXT           "自定义常用命令的别名,使用更加便捷,双击可编辑",IDC_STATIC,3,5,208,8
+END
+
+IDD_DIALOG_COMMANHIDE DIALOGEX 0, 0, 329, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "将您不需要使用的命令前面的勾选去掉命令将隐藏",IDC_STATIC,3,5,208,8
+    CONTROL         "",IDC_LIST_MAIN,"SysListView32",LVS_SMALLICON | WS_BORDER | WS_TABSTOP,4,18,288,195
+    PUSHBUTTON      "全选",IDC_BUTTON_QX,297,34,27,14
+    PUSHBUTTON      "全不选",IDC_BUTTON_QBX,298,60,27,14
+    PUSHBUTTON      "反选",IDC_BUTTON_FX,298,89,27,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_LAYER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_DIM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_COMMANDALIAS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_COMMANHIDE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDI_CROSS               CURSOR                  "idi_cros.cur"
+IDI_ORBIT               CURSOR                  "idi_orbi.cur"
+IDI_PAN                 CURSOR                  "idi_pan.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_DIM DLGINIT
+BEGIN
+    IDC_COMBO_ARROW, 0x403, 5, 0
+0xd6b4, 0xdfcf, "\000" 
+    IDC_COMBO_ARROW, 0x403, 5, 0
+0xb8cf, 0xdfcf, "\000" 
+    IDC_COMBO_ARROW, 0x403, 5, 0
+0xb2d4, 0xe3b5, "\000" 
+    IDC_COMBO_ARROW, 0x403, 5, 0
+0xfdbc, 0xb7cd, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e30, 0x3035, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e31, 0x3030, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e31, 0x3035, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e32, 0x3030, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e32, 0x3035, "\000" 
+    IDC_COMBO_LCCTA, 0x403, 5, 0
+0x2e33, 0x3030, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e30, 0x3035, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e31, 0x3030, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e31, 0x3035, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e32, 0x3030, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e32, 0x3035, "\000" 
+    IDC_COMBO_DIMEXE, 0x403, 5, 0
+0x2e33, 0x3030, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e30, 0x3035, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e31, 0x3030, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e31, 0x3035, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e32, 0x3030, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e32, 0x3035, "\000" 
+    IDC_COMBO_DIMEX0, 0x403, 5, 0
+0x2e33, 0x3030, "\000" 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_TEXTHEIGHT, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e30, 0x3035, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e30, 0x3036, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e30, 0x3037, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e30, 0x3038, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e30, 0x3039, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e31, 0x3030, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e31, 0x3031, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e31, 0x3032, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e31, 0x3035, "\000" 
+    IDC_COMBO_TEXTWH, 0x403, 5, 0
+0x2e32, 0x3030, "\000" 
+    IDC_COMBO_XSD, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_XSD, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_XSD, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_XSD, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_XSD, 0x403, 2, 0
+0x0034, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "CADConfigTools"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

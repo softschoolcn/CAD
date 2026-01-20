@@ -1,0 +1,12 @@
+AutoCAD版本和对应的程序目录
+AutoCAD2004 sys16.0
+AutoCAD2005-2006 sys16
+AutoCAD2007-2009 sys17
+AutoCAD2010-2012(32位) sys18
+AutoCAD2013-2014(32位) sys19
+AutoCAD2010-2012(62位) sys18(X64)
+AutoCAD2013-2014(62位) sys19(X64)
+
+请将对应的文件程序目录添加到CAD支持路径中
+请将"Plotters"目录下面的文件拷贝到打印机目录下
+对于AutoCAD 2014还需要将程序目录添加到信任列表中

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Root>
+<Layer Name="文字" LayerName="text" Color="2" LineType="Continuous"/>
+<Layer Name="坐标标注_线" LayerName="line" Color="2" LineType="Continuous"/>
+<Layer Name="坐标标注_文字" LayerName="text" Color="2" LineType="Continuous"/>
+<Layer Name="文字标注_线" LayerName="line" Color="2" LineType="Continuous"/>
+<Layer Name="文字标注_文字" LayerName="text" Color="2" LineType="Continuous"/>
+<Layer Name="线性标注" LayerName="dim" Color="2" LineType="Continuous"/>
+<Layer Name="对齐标注" LayerName="dim" Color="2" LineType="Continuous"/>
+</Root>

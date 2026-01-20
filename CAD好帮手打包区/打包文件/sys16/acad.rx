@@ -1,0 +1,12 @@
+GGridCtrl.arx
+CADGlobalTools.arx
+CADConfigTools.arx
+CADCommTools.arx
+CADTextTools.arx
+CADScreenMenu.arx
+BatchPlot.arx
+;;DwgTrans.arx
+DwgCompareEx.arx
+RegionSerach.arx
+RemoveEduStamp.arx
+CADDimTools.arx

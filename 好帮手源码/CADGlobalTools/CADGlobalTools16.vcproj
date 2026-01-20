@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject ProjectType="Visual C++" Version="7.00" Name="CADGlobalTools" ProjectGUID="{4937D4E1-C181-4C8C-B69A-DAD849B44B34}">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <Configurations>
+    <Configuration Name="Debug|Win32" OutputDirectory="..\Debug\sys16" IntermediateDirectory="..\TMP\Debug\sys16\CADGlobalTools" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalIncludeDirectories="D:\GOLD_CODE\LIB库文件\objectarx2005\inc" PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CADGLOBALTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="FALSE" MinimalRebuild="TRUE" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="4" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADGlobalTools.arx" LinkIncremental="2" AdditionalLibraryDirectories="D:\GOLD_CODE\LIB库文件\objectARX2005\lib" LinkDLL="TRUE" ModuleDefinitionFile="CADGlobalTools.def" GenerateDebugInformation="TRUE" ProgramDatabaseFile="$(OutDir)/CADGlobalTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADGlobalTools.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+    <Configuration Name="Release|Win32" OutputDirectory="..\Release\sys16" IntermediateDirectory="..\TMP\Release\sys16\CADGlobalTools" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalIncludeDirectories="C:\lib\objectarx2005\inc" PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CADGLOBALTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="TRUE" MinimalRebuild="FALSE" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="0" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADGlobalTools.arx" LinkIncremental="2" AdditionalLibraryDirectories="C:\lib\objectarx2005\lib" LinkDLL="TRUE" ModuleDefinitionFile="CADGlobalTools.def" GenerateDebugInformation="FALSE" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADGlobalTools.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;idl;odl">
+      <File RelativePath="BoxD.cpp">
+      </File>
+      <File RelativePath="CADGlobalTools.cpp">
+      </File>
+      <File RelativePath="CADGlobalTools.def">
+      </File>
+      <File RelativePath="CoordinateD.cpp">
+      </File>
+      <File RelativePath="DocData.cpp">
+      </File>
+      <File RelativePath="EnumEntity.cpp">
+      </File>
+      <File RelativePath="GAcadError.cpp">
+      </File>
+      <File RelativePath="GCADUtils.cpp">
+      </File>
+      <File RelativePath="GFileTools.cpp">
+      </File>
+      <File RelativePath="GLog.cpp">
+      </File>
+      <File RelativePath="GMTextFun.cpp">
+      </File>
+      <File RelativePath="GStringHelper.cpp">
+      </File>
+      <File RelativePath="GStringMatch.cpp">
+      </File>
+      <File RelativePath="GUserDataRecord.cpp">
+      </File>
+      <File RelativePath="GZoom.cpp">
+      </File>
+      <File RelativePath="GlobalSystemValue.cpp">
+      </File>
+      <File RelativePath="IdsTrans.cpp">
+      </File>
+      <File RelativePath="LineD.cpp">
+      </File>
+      <File RelativePath="StdAfx.cpp">
+      </File>
+      <File RelativePath="acrxEntryPoint.cpp">
+      </File>
+      <File RelativePath=".\GColorRecord.cpp" />
+      <File RelativePath=".\GSameColorHelper.cpp" />
+      <File RelativePath=".\GSelectHelper.cpp" />
+      <File RelativePath=".\GTempIntVarHelper.cpp" />
+      <File RelativePath=".\GLayerUtils.cpp" />
+      <File RelativePath=".\GSortentsTableTools.cpp" />
+    </Filter>
+    <Filter Name="Include Files" Filter="h;hh;hxx">
+      <File RelativePath="BoxD.h">
+      </File>
+      <File RelativePath="CoordinateD.h">
+      </File>
+      <File RelativePath="DocData.h">
+      </File>
+      <File RelativePath="EnumEntity.h">
+      </File>
+      <File RelativePath="GAcadError.h">
+      </File>
+      <File RelativePath="GCADUtils.h">
+      </File>
+      <File RelativePath="GFileTools.h">
+      </File>
+      <File RelativePath="GLog.h">
+      </File>
+      <File RelativePath="GMTextFun.h">
+      </File>
+      <File RelativePath="GStringHelper.h">
+      </File>
+      <File RelativePath="GStringMatch.h">
+      </File>
+      <File RelativePath="GUserDataRecord.h">
+      </File>
+      <File RelativePath="GZoom.h">
+      </File>
+      <File RelativePath="GlobalSystemValue.h">
+      </File>
+      <File RelativePath="GlobalToolsHeaders.h">
+      </File>
+      <File RelativePath="IdsTrans.h">
+      </File>
+      <File RelativePath="LineD.h">
+      </File>
+      <File RelativePath="Resource.h">
+      </File>
+      <File RelativePath="StdAfx.h">
+      </File>
+      <File RelativePath=".\GColorRecord.h" />
+      <File RelativePath=".\GSameColorHelper.h" />
+      <File RelativePath=".\GSelectHelper.h" />
+      <File RelativePath=".\GTempIntVarHelper.h" />
+      <File RelativePath=".\GLayerUtils.h" />
+      <File RelativePath=".\GSortentsTableTools.h" />
+    </Filter>
+    <Filter Name="Resource Files" Filter="rc;ico;bmp;cur;jpg;gif">
+      <File RelativePath="CADGlobalTools.rc">
+      </File>
+    </Filter>
+    <Filter Name="Miscellaneous Files" Filter="reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>

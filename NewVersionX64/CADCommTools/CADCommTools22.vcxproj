@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE3D3488-BA4E-485B-BFE1-EA6B1742B767}</ProjectGuid>
+    <ProjectName>CADCommTools</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Debug\sys22</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Debug\sys22(X64)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\TMP\Debug\sys22\CADCommTools</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\TMP\Debug\sys22(X64)\CADCommTools</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Release\sys22</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Release\sys22(X64)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\TMP\Release\sys22\CADCommTools</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\TMP\Release\sys22\(X64)\CADCommTools</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OBJECTARX_HOME)\objectarx 2018\inc-win32;$(OBJECTARX_HOME)\objectarx 2018\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)CADCommTools.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)CADCommTools.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)CADCommTools.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OBJECTARX_HOME)\objectarx 2018\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;CADCommTools_MODULE;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OBJECTARX_HOME)\objectarx 2018\inc-x64;$(OBJECTARX_HOME)\objectarx 2018\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)CADCommTools.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)CADCommTools.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)CADCommTools.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(OBJECTARX_HOME)\objectarx 2018\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OBJECTARX_HOME)\objectarx 2018\inc-win32;$(OBJECTARX_HOME)\objectarx 2018\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)CADCommTools.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)CADCommTools.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OBJECTARX_HOME)\objectarx 2018\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalUsingDirectories>c:\Program Files\AutoCAD;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CADCOMMTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(OBJECTARX_HOME)\objectarx 2018\inc-x64;$(OBJECTARX_HOME)\objectarx 2018\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)CADCommTools.arx</OutputFile>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)CADCommTools.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(OBJECTARX_HOME)\objectarx 2018\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AcCommFunction.cpp" />
+    <ClCompile Include="AcEdSSGetFilterEx.cpp" />
+    <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="ByteString.cpp" />
+    <ClCompile Include="Command_HatchStatistics.cpp" />
+    <ClCompile Include="CommCommand.cpp" />
+    <ClCompile Include="CurveCommCommand.cpp" />
+    <ClCompile Include="DES.cpp" />
+    <ClCompile Include="DocData.cpp" />
+    <ClCompile Include="CADCommTools.cpp" />
+    <ClCompile Include="GAcGroupFunction.cpp" />
+    <ClCompile Include="GBarCodeDialog.cpp" />
+    <ClCompile Include="GBarCodeJig.cpp" />
+    <ClCompile Include="GBarcodeMgr.cpp" />
+    <ClCompile Include="GCommandReactor.cpp" />
+    <ClCompile Include="GComputerId.cpp" />
+    <ClCompile Include="GEntAlignDialog.cpp" />
+    <ClCompile Include="GEntAverPosDialog.cpp" />
+    <ClCompile Include="GExportDimensionDialog.cpp" />
+    <ClCompile Include="GHighlightHelper.cpp" />
+    <ClCompile Include="GItemSelectDialog.cpp" />
+    <ClCompile Include="GJoinDwgDialog.cpp" />
+    <ClCompile Include="GJoinDwgHelper.cpp" />
+    <ClCompile Include="GMenu.cpp" />
+    <ClCompile Include="GMousePreviewDialog.cpp" />
+    <ClCompile Include="GMousePreviewDocReactor.cpp" />
+    <ClCompile Include="GMultiJig.cpp" />
+    <ClCompile Include="GMultiJigEntity.cpp" />
+    <ClCompile Include="GMultJigEnt.cpp" />
+    <ClCompile Include="GPurgeCommCommand.cpp" />
+    <ClCompile Include="GPurgeDialog.cpp" />
+    <ClCompile Include="GQrCodeCommand.cpp" />
+    <ClCompile Include="GQrCodeDialog.cpp" />
+    <ClCompile Include="GQrCodeJIg.cpp" />
+    <ClCompile Include="GQRCodeManager.cpp" />
+    <ClCompile Include="GQrCodeMgr.cpp" />
+    <ClCompile Include="GRegDialog.cpp" />
+    <ClCompile Include="GSimpleSelDialog.cpp" />
+    <ClCompile Include="GTableAlignDialog.cpp" />
+    <ClCompile Include="GxAfxFunction.cpp" />
+    <ClCompile Include="GZYJXJig.cpp" />
+    <ClCompile Include="HDID.cpp" />
+    <ClCompile Include="IEHelper.cpp" />
+    <ClCompile Include="LineCrossReportFunction.cpp" />
+    <ClCompile Include="LineCrossReportPanel.cpp" />
+    <ClCompile Include="LineCrossReportPanelChildDlg.cpp" />
+    <ClCompile Include="LinkLable.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="ParcelViewInputPoint.cpp" />
+    <ClCompile Include="QR_Encode.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="XlsCommCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcCommFunction.h" />
+    <ClInclude Include="AcDbEntityPointerEx.h" />
+    <ClInclude Include="AcEdSSGetFilterEx.h" />
+    <ClInclude Include="ByteString.h" />
+    <ClInclude Include="CommCommand.h" />
+    <ClInclude Include="CurveCommCommand.h" />
+    <ClInclude Include="DES.h" />
+    <ClInclude Include="DocData.h" />
+    <ClInclude Include="ExportHeaders.h" />
+    <ClInclude Include="GAcGroupFunction.h" />
+    <ClInclude Include="GBarCodeDialog.h" />
+    <ClInclude Include="GBarCodeJig.h" />
+    <ClInclude Include="GBarcodeMgr.h" />
+    <ClInclude Include="GCommandReactor.h" />
+    <ClInclude Include="GComputerId.h" />
+    <ClInclude Include="GEntAlignDialog.h" />
+    <ClInclude Include="GEntAverPosDialog.h" />
+    <ClInclude Include="GExportDimensionDialog.h" />
+    <ClInclude Include="GHighlightHelper.h" />
+    <ClInclude Include="GItemSelectDialog.h" />
+    <ClInclude Include="GJoinDwgDialog.h" />
+    <ClInclude Include="GJoinDwgHelper.h" />
+    <ClInclude Include="GlobalDefine.h" />
+    <ClInclude Include="GLockDocument.h" />
+    <ClInclude Include="GMenu.h" />
+    <ClInclude Include="GMousePreviewDialog.h" />
+    <ClInclude Include="GMousePreviewDocReactor.h" />
+    <ClInclude Include="GMultiJig.h" />
+    <ClInclude Include="GMultiJigEntity.h" />
+    <ClInclude Include="GMultJigEnt.h" />
+    <ClInclude Include="GPurgeCommCommand.h" />
+    <ClInclude Include="GPurgeDialog.h" />
+    <ClInclude Include="GQrCodeCommand.h" />
+    <ClInclude Include="GQrCodeDialog.h" />
+    <ClInclude Include="GQrCodeJIg.h" />
+    <ClInclude Include="GQRCodeManager.h" />
+    <ClInclude Include="GQrCodeMgr.h" />
+    <ClInclude Include="GRegDefine.h" />
+    <ClInclude Include="GRegDialog.h" />
+    <ClInclude Include="GSimpleSelDialog.h" />
+    <ClInclude Include="GTableAlignDialog.h" />
+    <ClInclude Include="GWndEx.h" />
+    <ClInclude Include="GxAfxFunction.h" />
+    <ClInclude Include="GZYJXJig.h" />
+    <ClInclude Include="HDID.h" />
+    <ClInclude Include="IEHelper.h" />
+    <ClInclude Include="LineCrossReportFunction.h" />
+    <ClInclude Include="LineCrossReportPanel.h" />
+    <ClInclude Include="LineCrossReportPanelChildDlg.h" />
+    <ClInclude Include="LinkLable.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="ParcelViewInputPoint.h" />
+    <ClInclude Include="QR_Encode.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SortArray.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="XlsCommCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CADCommTools.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Root>
+<CmpConfig Mode="1" CmpEx="false" SourceFile="false" IngoreCloseLayer="true" IngoreLockLayer="false" IngoreLayer=""/>
+<CmpColorConfig Same="251" Change="2" New="3" Delete="1"/>
+<CmpFile File1="" File2=""/>
+<CmpFloder Floder1="" Floder2=""/>
+<CmpType Name="符号化记录" ClassName="AcDbSymbolTableRecord" ParentClassName="" Active="TRUE"/>
+<CmpType Name="图层" ClassName="AcDbLayerTableRecord" ParentClassName="AcDbSymbolTableRecord" Active="TRUE">
+<CmpItem Name="图层名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2" IngoreNoCase="TRUE"/>
+<CmpItem Name="标准标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="颜色编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="62"/>
+<CmpItem Name="线型名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="6" IngoreNoCase="TRUE"/>
+<CmpItem Name="打印标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="290"/>
+<CmpItem Name="线宽枚举值" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="370"/>
+</CmpType>
+<CmpType Name="字体样式" ClassName="AcDbTextStyleTableRecord" ParentClassName="AcDbSymbolTableRecord" Active="TRUE">
+<CmpItem Name="样式名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2" IngoreNoCase="TRUE"/>
+<CmpItem Name="标准标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="固定的文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="宽度比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="倾斜角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="文字生成标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="上次使用的高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="主要字体文件名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3" IngoreNoCase="TRUE"/>
+<CmpItem Name="大字体文件名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="4" IngoreNoCase="TRUE"/>
+</CmpType>
+<CmpType Name="线型" ClassName="AcDbLinetypeTableRecord" ParentClassName="AcDbSymbolTableRecord" Active="TRUE">
+<CmpItem Name="线型名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2" IngoreNoCase="TRUE"/>
+<CmpItem Name="标准标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="线型的说明文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3"/>
+<CmpItem Name="对齐代码" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="线型元素的数目" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="图案总长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="字符串" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="9"/>
+</CmpType>
+<CmpType Name="实体" ClassName="AcDbEntity" ParentClassName="" Active="TRUE">
+<CmpItem Name="图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="8" IngoreNoCase="TRUE"/>
+<CmpItem Name="线型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="6" IngoreNoCase="TRUE" />
+<CmpItem Name="线型比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="颜色" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="62"/>
+<CmpItem Name="线宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="370"/>
+<CmpItem Name="厚度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="39"/>
+</CmpType>
+<CmpType Name="曲线" ClassName="AcDbCurve" ParentClassName="AcDbEntity" Active="TRUE"/>
+<CmpType Name="直线" ClassName="AcDbLine" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="端点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+</CmpType>
+<CmpType Name="多段线" ClassName="AcDbPolyline" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="节点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="起点宽度" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="端点宽度" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="凸度" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="41"/>
+</CmpType>
+<CmpType Name="圆" ClassName="AcDbCircle" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="中心点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="半径" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+</CmpType><CmpType Name="圆弧" ClassName="AcDbArc" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="中心点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="半径" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="起点角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="端点角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="51"/>
+</CmpType>
+<CmpType Name="椭圆" ClassName="AcDbEllipse" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="中心点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="相对于中心的长轴端点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="拉伸方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+<CmpItem Name="短轴与长轴的比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="开始参数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="结束参数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+</CmpType><CmpType Name="构造线" ClassName="AcDbXline" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="第一点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="单位方向矢量" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+</CmpType>
+<CmpType Name="射线" ClassName="AcDbRay" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="第一点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="单位方向矢量" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+</CmpType><CmpType Name="引线" ClassName="AcDbLeader" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="标注样式名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3" IngoreNoCase="TRUE"/>
+<CmpItem Name="箭头标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="引线路径类型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="引线创建标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="钩线方向标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="74"/>
+<CmpItem Name="钩线标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="75"/>
+<CmpItem Name="文字注释高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="文字注释宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="引线顶点数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="76"/>
+<CmpItem Name="顶点坐标" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="引线的 DIMCLRD = 随块时使用的颜色" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="77"/>
+<CmpItem Name="相关注释的硬参照" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="340"/>
+<CmpItem Name="法向矢量" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="210"/>
+<CmpItem Name="引线的“水平”方向" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="211"/>
+<CmpItem Name="上一个引线顶点距块参照插入点的偏移" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="212"/>
+<CmpItem Name="上一个引线定点距注释位置点的偏移" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="213"/>
+</CmpType>
+<CmpType Name="样条曲线" ClassName="AcDbSpline" ParentClassName="AcDbCurve" Active="TRUE">
+<CmpItem Name="法向矢量" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+<CmpItem Name="样条曲线标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="样条曲线的阶数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="节点数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="控制点数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="拟合点数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="74"/>
+<CmpItem Name="节点公差" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="控制点公差" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="拟合点公差" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="起点切向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="12"/>
+<CmpItem Name="端点切向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="节点值" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="权值" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="控制点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="拟合点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="11"/>
+</CmpType><CmpType Name="多行文字" ClassName="AcDbMText" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="内容" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10,20,30"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="参照举行宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="附着点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="图形方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="文字样式名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7" IngoreNoCase="TRUE"/>
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType><CmpType Name="文字" ClassName="AcDbText" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="内容" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10,20,30"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="文字样式名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="图形方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+</CmpType><CmpType Name="属性定义" ClassName="AcDbAttributeDefinition" ParentClassName="AcDbText" Active="TRUE"/>
+<CmpType Name="属性" ClassName="AcDbAttribute" ParentClassName="AcDbText" Active="TRUE" IngoreDxfCodes="10"/>
+<CmpType Name="块参照" ClassName="AcDbBlockReference" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="块名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2" IngoreNoCase="TRUE"/>
+<CmpItem Name="插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="X 缩放比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="Y 缩放比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="Z 缩放比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="列计数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="行计数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="列间距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="行间距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="45"/>
+<CmpItem Name="拉伸方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+</CmpType>
+<CmpType Name="标注" ClassName="AcDbDimension" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="标注文字的中点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="标注类型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="附着点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="标注文字行距样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="标注文字行距比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="用户明确输入的标注文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="标注文字与其默认方向所成的旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="53"/>
+<CmpItem Name="图元的水平方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="51"/>
+<CmpItem Name="拉伸方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+<CmpItem Name="标注样式名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3" IngoreNoCase="TRUE"/>
+</CmpType>
+<CmpType Name="对齐标注" ClassName="AcDbAlignedDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="标注复制的插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="12"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="14"/>
+</CmpType><CmpType Name="转角标注" ClassName="AcDbRotatedDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="标注复制的插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="12"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="14"/>
+<CmpItem Name="转角标注、水平标注或垂直标注的角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="尺寸界线的角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="52"/>
+</CmpType>
+<CmpType Name="半径标注" ClassName="AcDbRadialDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="直径标注、半径标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="15"/>
+<CmpItem Name="半径标注和直径标注的引线长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+</CmpType>
+<CmpType Name="直径标注" ClassName="AcDbDiametricDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="直径标注、半径标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="15"/>
+<CmpItem Name="半径标注和直径标注的引线长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+</CmpType>
+<CmpType Name="角度标注(三点)" ClassName="AcDb3PointAngularDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="14"/>
+<CmpItem Name="直径标注、半径标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="15"/>
+<CmpItem Name="定义角度标注的标注圆弧的点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="16"/>
+</CmpType>
+<CmpType Name="坐标标注" ClassName="AcDbOrdinateDimension" ParentClassName="AcDbDimension" Active="TRUE">
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="线性标注和角度标注的定义点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="14"/>
+</CmpType>
+<CmpType Name="角度标注(两条直线)" ClassName="AcDb2LineAngularDimension" ParentClassName="AcDbDimension" Active="TRUE"/>
+<CmpType Name="点" ClassName="AcDbPoint" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="点位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="拉伸方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+</CmpType>
+<CmpType Name="填充" ClassName="AcDbHatch" ParentClassName="AcDbEntity" Active="TRUE">
+<CmpItem Name="标高点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="拉伸方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+<CmpItem Name="填充图案名" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2" IngoreNoCase="TRUE"/>
+<CmpItem Name="实体填充标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="图案填充颜色" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="63"/>
+<CmpItem Name="关联性标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="边界路径（环）数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="91"/>
+<CmpItem Name="图案填充样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="75"/>
+<CmpItem Name="填充图案类型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="76"/>
+<CmpItem Name="填充图案角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="52"/>
+<CmpItem Name="填充图案比例或间距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="边界注释标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="填充图案双标志" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="77"/>
+<CmpItem Name="操作的密度的像素大小" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="47"/>
+<CmpItem Name="种子点数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="98"/>
+<CmpItem Name="偏移矢量" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="退化边界路径（环）数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="99"/>
+<CmpItem Name="表示实体图案填充或渐变色" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="450"/>
+<CmpItem Name="记录如何定义颜色" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="452"/>
+<CmpItem Name="颜色数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="453"/>
+<CmpItem Name="以弧度表示的渐变色的旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="460"/>
+<CmpItem Name="渐变色定义" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="461"/>
+<CmpItem Name="对话框代码使用的色调值" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="462"/>
+<CmpItem Name="字符串（默认值 = 线性）" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="470"/>
+</CmpType>
+<CmpType Name="天正实体" ClassName="TDbEntity" ParentClassName="AcDbEntity" Active="TRUE">
+</CmpType>
+<CmpType Name="天正表格" ClassName="TDbSheet" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="定位点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="标题文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="标准行高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="行数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="列数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="对齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+</CmpType>
+<CmpType Name="天正单行文字" ClassName="TDbText" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="定位点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="对齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+</CmpType>
+<CmpType Name="天正多行文字" ClassName="TDbMText" ParentClassName="TDbText" Active="TRUE">
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="页宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="行间距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+</CmpType>
+<CmpType Name="天正轴号标注" ClassName="TDbAxisLabelSet" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="引线长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="轴圈直径" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+</CmpType>
+<CmpType Name="天正半径标注" ClassName="TDbRadiusDim" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="圆心" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="文字定位点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="圆周上的点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="15"/>
+<CmpItem Name="替代文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="标注样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3"/>
+<CmpItem Name="标注线长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+</CmpType>
+<CmpType Name="天正折断线" ClassName="TDbSymbRupture" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="终点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="折断数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+</CmpType>
+<CmpType Name="天正指北针" ClassName="TDbSymbNorthThumb" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="圆心" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="直径" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="方向角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正符号文字" ClassName="TDbSymbWithText" ParentClassName="TDbEntity" Active="TRUE">
+</CmpType>
+<CmpType Name="天正箭头标注" ClassName="TDbSymbArrow" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="文字的对齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="文字的位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="文字内容" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="箭头大小" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="顺着箭头方向的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="顶点对应的圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正作法标注" ClassName="TDbSymbComposing" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="文字的对齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="起点P1" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="转折点P2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="引线长度a" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+</CmpType>
+<CmpType Name="天正坐标标注" ClassName="TDbSymbCoord" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="标注点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="X值" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="Y值" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+</CmpType>
+<CmpType Name="天正索引图名" ClassName="TDbSymbDrawingIndex" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="圆心位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="圆圈直径" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="线宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="索引编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="图号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+</CmpType>
+<CmpType Name="天正标高" ClassName="TDbSymbElevation" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="文字基线长a" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="引线长b" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="文字基线长c" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+</CmpType>
+<CmpType Name="天正指向索引" ClassName="TDbSymbIndexPointer" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="位置 P1" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="位置 P2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="圆圈直径a" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="文字基线长b" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="详图范围c" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="索引号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="详图号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="上说明文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3"/>
+<CmpItem Name="上说明文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="4"/>
+</CmpType>
+<CmpType Name="天正剖切号" ClassName="TDbSymbIndexPointer" ParentClassName="TDbSymbWithText" Active="TRUE">
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="剖切形式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="剖视方向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="文字位置1" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="文字位置2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="12"/>
+<CmpItem Name="顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+</CmpType>
+<CmpType Name="天正对称轴" ClassName="TDbSymbSymmetry" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="起始点P1" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="终止点P2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="距离a" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="距离b" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="距离c" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+</CmpType>
+<CmpType Name="天正多跑楼梯" ClassName="TDbMultiStair" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="楼梯标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="基线标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="视图控制" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="75"/>
+<CmpItem Name="底标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="楼梯高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="49"/>
+<CmpItem Name="路径" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="踏步高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="剖断线左右位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41,42"/>
+<CmpItem Name="踏步宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="梯段宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="扩展标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="边梁高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="边梁厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="146"/>
+<CmpItem Name="平台板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="踏步图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="边梁图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+<CmpItem Name="扶手图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="414"/>
+<CmpItem Name="栏杆图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="415"/>
+</CmpType>
+<CmpType Name="天正楼梯" ClassName="TDbStair" ParentClassName="TDbEntity" Active="TRUE">
+</CmpType>
+<CmpType Name="天正任意梯段" ClassName="TDbCurveStair" ParentClassName="TDbStair" Active="TRUE">
+<CmpItem Name="楼梯标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="踏步数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="踏步高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="剖断线左位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="剖断线右位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="起始标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="左边起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="左边终点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="右边起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="12"/>
+<CmpItem Name="右边终点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="13"/>
+<CmpItem Name="左边圆心角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="右边圆心角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="51"/>
+<CmpItem Name="扩展标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="边梁高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="边梁厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="146"/>
+</CmpType>
+<CmpType Name="天正直线梯段" ClassName="TDbLineStair" ParentClassName="TDbStair" Active="TRUE">
+<CmpItem Name="楼梯标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="踏步数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="踏步高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="剖断线左位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="剖断线右位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="踏步宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="梯段宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="左下角位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="扩展标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="边梁高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="边梁厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="146"/>
+<CmpItem Name="平台板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="踏步图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="边梁图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+</CmpType>
+<CmpType Name="天正坡道" ClassName="TDbAscent" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="定位点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="缩进宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+</CmpType>
+<CmpType Name="天正台阶" ClassName="TDbStep" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="底标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="踏步高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="踏步宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="踏步数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="踏步标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正提示标记" ClassName="TDbPromptMark" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="文字" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="x，y方向的大小" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40,41"/>
+<CmpItem Name="转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="图示表达" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+</CmpType>
+<CmpType Name="天正房间" ClassName="TDbSpace" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="文字转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="地板厚度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="标注点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="房间名称" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="房间编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="面积m2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="周长" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+</CmpType>
+<CmpType Name="天正多视图块" ClassName="TDbMultiViewInsert" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="二维图块名称" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="三维图块名称" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="插入点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="x,y,z比例" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41,42,43"/>
+<CmpItem Name="转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正相机" ClassName="TDbCamera" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="图块名称" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="相机位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="目标位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="焦距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="前裁剪距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="后裁剪距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="关联视口号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="69"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+</CmpType>
+<CmpType Name="天正路径" ClassName="TDbPolyPathEnt" ParentClassName="TDbEntity" Active="TRUE">
+</CmpType>
+<CmpType Name="天正阳台" ClassName="TDbBalcony" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+<CmpItem Name="阳台地面标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="栏板高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="栏板宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="底板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="梁厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="描述底板轮廓的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="描述底板轮廓的夹角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="地面图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+</CmpType>
+<CmpType Name="天正坡屋顶" ClassName="TDbSlopeRoof" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+<CmpItem Name="底标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="顶点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="边坡度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="51"/>
+</CmpType>
+<CmpType Name="天正路径曲面" ClassName="TDbCurveMesh" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+</CmpType>
+<CmpType Name="天正扶手" ClassName="TDbHandRail" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+<CmpItem Name="扶手类型标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="对齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="视图模式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="基线标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="74"/>
+<CmpItem Name="扶手高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="扶手宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="扶手矩形截面高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="基线上的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="基线上的圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正物体排列" ClassName="TDbRail" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+<CmpItem Name="单元图块" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="单元宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="初始间距" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="基线标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="基线上的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="基线上的圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+</CmpType>
+<CmpType Name="天正双跑楼梯" ClassName="TDbRectStair" ParentClassName="TDbPolyPathEnt" Active="TRUE">
+<CmpItem Name="一跑楼梯起始位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="踏步高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="楼梯间宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="平台宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="踏步宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="梯段宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="扶手高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="45"/>
+<CmpItem Name="扶手宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="46"/>
+<CmpItem Name="扶手距边" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="47"/>
+<CmpItem Name="旋转角度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="楼梯标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="一跑步数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="二跑步数" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="起步一侧" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="踏步取齐方式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="74"/>
+<CmpItem Name="视图控制" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="75"/>
+<CmpItem Name="扩展标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="左、右剖切高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="141,142"/>
+<CmpItem Name="边梁高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="边梁厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="146"/>
+<CmpItem Name="平台板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="踏步图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="边梁图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+<CmpItem Name="扶手图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="414"/>
+<CmpItem Name="栏杆图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="415"/>
+</CmpType>
+<CmpType Name="天正柱子" ClassName="TDbColumn" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="柱子高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="49"/>
+<CmpItem Name="柱子形状特征" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="柱子材料特征" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="柱特征标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="描述轮廓的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="描述轮廓的圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="填充图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="411"/>
+</CmpType>
+<CmpType Name="天正转角窗" ClassName="TDbCornerWin" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="门窗编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="302"/>
+<CmpItem Name="位置，z为窗台高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="编号位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="140"/>
+<CmpItem Name="文字转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="宽度1" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="宽度2" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="两侧所在的墙" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="330,331"/>
+<CmpItem Name="凸窗突出长度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="141"/>
+<CmpItem Name="凸窗窗台两侧伸出距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="142,143"/>
+<CmpItem Name="玻璃距离窗台板边缘" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="144"/>
+<CmpItem Name="窗台板厚度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="窗框截面尺寸" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="148,149"/>
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="玻璃图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="411"/>
+<CmpItem Name="窗框图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="窗台板图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+</CmpType>
+<CmpType Name="天正门窗" ClassName="TDbOpening" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="二维样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="三维样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+<CmpItem Name="门窗编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="302"/>
+<CmpItem Name="窗台中心点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="编号位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="宽度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="窗套伸出距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="43"/>
+<CmpItem Name="窗套宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="44"/>
+<CmpItem Name="门联窗的门宽或子母门的大门宽或凸窗的突出距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="45"/>
+<CmpItem Name="门联窗的窗高或梯形凸窗的梯形宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="46"/>
+<CmpItem Name="转角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="弧窗圆心角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="51"/>
+<CmpItem Name="开启象限" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="门窗类型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="门窗标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="72"/>
+<CmpItem Name="凸窗类型标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="所在的墙" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="330"/>
+<CmpItem Name="凸窗台板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="自定义窗框的尺寸u" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="148"/>
+<CmpItem Name="自定义窗框的尺寸v" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="149"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="140"/>
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="玻璃图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="411"/>
+<CmpItem Name="窗框图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="窗台板图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+</CmpType>
+<CmpType Name="天正老虎窗" ClassName="TDbDormer" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="门窗编号" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="302"/>
+<CmpItem Name="位置，z为窗台高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="编号位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="文字样式" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="7"/>
+<CmpItem Name="文字高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="老虎窗法向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="老虎窗类型" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+<CmpItem Name="是否显示窗" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="71"/>
+<CmpItem Name="出檐长" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="140"/>
+<CmpItem Name="出山长" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="141"/>
+<CmpItem Name="坡度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="142"/>
+<CmpItem Name="坡顶高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="143"/>
+<CmpItem Name="檐板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="144"/>
+<CmpItem Name="墙高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="墙厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="146"/>
+<CmpItem Name="墙宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="147"/>
+<CmpItem Name="窗高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="148"/>
+<CmpItem Name="窗宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="144"/>
+<CmpItem Name="文字图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="410"/>
+<CmpItem Name="玻璃图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="411"/>
+<CmpItem Name="窗框图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="檐板图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+<CmpItem Name="坡顶图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="414"/>
+<CmpItem Name="坡底图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="415"/>
+<CmpItem Name="墙面图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="416"/>
+</CmpType>
+<CmpType Name="天正平板" ClassName="TDbSlab" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="48"/>
+<CmpItem Name="厚度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="49"/>
+<CmpItem Name="边可见标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="基线的顶点" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="基线的圆心角" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="法向" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="210"/>
+</CmpType>
+<CmpType Name="天正竖板" ClassName="TDbVertSlab" ParentClassName="TDbEntity" Active="TRUE">
+<CmpItem Name="起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="终点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="板厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="起始高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="终止高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="70"/>
+</CmpType>
+<CmpType Name="天正曲线" ClassName="TDbCurveEntity" ParentClassName="AcDbCurve" Active="TRUE">
+</CmpType>
+<CmpType Name="天正墙体" ClassName="TDbWall" ParentClassName="TDbCurveEntity" Active="TRUE">
+<CmpItem Name="起点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="10"/>
+<CmpItem Name="终点" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="11"/>
+<CmpItem Name="标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="38"/>
+<CmpItem Name="标高" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="148"/>
+<CmpItem Name="高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="39"/>
+<CmpItem Name="高度" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="149"/>
+<CmpItem Name="左宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="40"/>
+<CmpItem Name="右宽" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="41"/>
+<CmpItem Name="面层厚" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="42"/>
+<CmpItem Name="圆心角" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="50"/>
+<CmpItem Name="是否为外墙" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="73"/>
+<CmpItem Name="墙体材料" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="74"/>
+<CmpItem Name="用途标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="75"/>
+<CmpItem Name="门窗数目" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="76"/>
+<CmpItem Name="墙标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="90"/>
+<CmpItem Name="门窗ID" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="330"/>
+<CmpItem Name="保温图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="411"/>
+<CmpItem Name="填充图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="412"/>
+<CmpItem Name="左面图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="413"/>
+<CmpItem Name="右面图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="414"/>
+<CmpItem Name="左面房间" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="1"/>
+<CmpItem Name="右面房间" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="2"/>
+</CmpType>
+<CmpType Name="天正玻璃幕墙" ClassName="TDbCurtainWall" ParentClassName="TDbWall" Active="TRUE">
+<CmpItem Name="竖挺的对齐位置" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="77"/>
+<CmpItem Name="水平分格数目" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="78"/>
+<CmpItem Name="竖直分格数目" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="79"/>
+<CmpItem Name="横框截面尺寸u" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="140"/>
+<CmpItem Name="横框截面尺寸v" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="141"/>
+<CmpItem Name="竖挺截面尺寸u" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="142"/>
+<CmpItem Name="竖挺截面尺寸v" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="143"/>
+<CmpItem Name="玻璃距离基线的距离" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="144"/>
+<CmpItem Name="横框中心距离基线" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="145"/>
+<CmpItem Name="横框间距" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="148"/>
+<CmpItem Name="竖挺间距" Active="TRUE" OnlyOne="FALSE" IngoreOrder="FALSE" DxfCodes="149"/>
+<CmpItem Name="玻璃图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="415"/>
+<CmpItem Name="横框图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="416"/>
+<CmpItem Name="竖挺图层" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="417"/>
+</CmpType>
+<CmpType Name="天正图块" ClassName="TDbBlockInsert" ParentClassName="AcDbBlockReference" Active="TRUE">
+<CmpItem Name="控制标记" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="61"/>
+<CmpItem Name="二维图块名称" Active="TRUE" OnlyOne="TRUE" IngoreOrder="FALSE" DxfCodes="3"/>
+</CmpType>
+</Root>

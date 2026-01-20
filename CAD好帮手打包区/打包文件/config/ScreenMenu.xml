@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ScreenMenu Version="1.0" GUID="{EB88E201-2566-AAAA-B98A-57753743692F}" WaitForCommand="true">
+<Menus>
+<Menu ID="ID_Cadgj_Com_Menu" HotKey="Alt+88" text="CAD好帮手" Font="宋体" Bold="true" DefHeight="12" Height="14" DefMenuGap="4" MenuGap="6" Color="0,0,0" ShowRootMenu="false" AllowDropMenu="false" TextAlign="左对齐">
+<MenuItem text="文字" Cmd="">
+	      <MenuItem text="单转多行" Cmd="TxtToMText " tip="将单行文字转换为多行文字" />
+		  <MenuItem text="多转单行" Cmd="MTextToTxt " tip="将多行文字转换为单行文字" />
+		  <MenuItem text="重叠文字" Cmd="TextCross " tip="检查文字、多行文字之间的是否有重叠" />
+		  <MenuItem text="文字边框" Cmd="TextBorder " tip="为文字增加边框" />
+		  <MenuItem text="文字转线" Cmd="TextToPline " tip="将文字转化为多段线" />
+		  <MenuItem text="文字递增" Cmd="TextBatchCopy " tip="文字递增复制" />
+		  <MenuItem text="文字刷" Cmd="TextBrush " tip="使用文字刷刷文字的各种特性" />
+		  <MenuItem text="批量修改" Cmd="BatchModify " tip="批量修改文字、多行文字" />
+		  <MenuItem text="连续修改" Cmd="ContinueModify " tip="连续修改文字、多行文字" />
+		  <MenuItem text="日期时间" Cmd="AssDateTime " tip="插入各种格式的时间、日期" />
+		  <MenuItem text="清除格式" Cmd="ClearFormat " tip="清除多行文字的格式，保留纯文本" />
+                  <MenuItem text="拷贝文字" Cmd="cadgj_CopyText " tip="将文字、多行文字内容拷贝到剪贴板中" />
+                  <MenuItem text="查找替换" Cmd="cadgj_Find " tip="升级版的查找、替换功能，支持目录查找" />
+                        <MenuItem text="上下划线" Cmd="">
+                              <MenuItem text="下划线" Cmd="cadgj_xhx " tip="为文字、多行文字增加下划线" />
+                              <MenuItem text="删下划线" Cmd="cadgj_sxhx " tip="删除文字、多行文字下划线" />
+                              <MenuItem text="上划线" Cmd="cadgj_shx " tip="为文字、多行文字增加上划线" />
+                              <MenuItem text="删上划线" Cmd="cadgj_sshx " tip="删除文字、多行文字上划线" />
+                        </MenuItem>
+                 <MenuItem text="转为大写" Cmd="cadgj_uppertext " tip="将文字转换为大写" />
+                 <MenuItem text="转为小写" Cmd="cadgj_lowertext " tip="将文字转换为小写" />                 
+	</MenuItem>
+	<MenuItem text="实体" Cmd="">
+	      <MenuItem text="自相交" Cmd="SelfIntersect " />
+		  <MenuItem text="重叠检测" Cmd="LineCross " tip="检测各种曲线之间是否重叠" />
+                  <MenuItem text="删除重叠" Cmd="DeleteCrossLine " tip="删除完全重叠和被压盖的曲线" />
+		  <MenuItem text="样条转多" Cmd="SPToPL " tip="将样条曲线转换为多段线" />
+		  <MenuItem text="连接线" Cmd="JoinLines " tip="将可以连接的圆、直线、多段线连接起来" />
+		  <MenuItem text="删除同类" Cmd="DelSameEntity " tip="删除所有同类型的对象" />
+		  
+		  <MenuItem text="删超短线" Cmd="DelShortLine " tip="删除长度小于输入值的线" />
+		  <MenuItem text="线抽稀" Cmd="ThinLine " tip="将多段线抽稀，减少很近的点" />
+		  <MenuItem text="删重复点" Cmd="RemoveSamePts " tip="删除多段线中的重复点" />
+		  <MenuItem text="多线删点" Cmd="RemovePLinePoint " tip="选择一个范围，删除多段线位于该范围内的点" />
+		  <MenuItem text="Z轴规零" Cmd="ZToZero " tip="将对象所有点的Z值置为0" />
+<MenuItem text="两点成线" Cmd="cadgj_LDCX " tip="选择两个点并将两个点最近的直线连接起来成三段线" />
+<MenuItem text="两点四边" Cmd="cadgj_LDCSBX " tip="选择两个点并将两个点最近的直线连接起来并闭合成四段线" />
+<MenuItem text="交点打断" Cmd="cadgj_ZXJDDL " tip="在直线交点处将直线打断" />
+<MenuItem text="自由矩形" Cmd="cadgj_zyjx " tip="先输入两个点确定一条边，再输入一个点确定对边" />
+	</MenuItem>
+	<MenuItem text="编辑工具" Cmd="">
+	      <MenuItem text="实体对齐" Cmd="EntityAlign " tip="设置实体横向和纵向对齐" />
+		  <MenuItem text="对象均布" Cmd="EntAverPos " tip="设置实体横向和纵向均布" />
+                  <MenuItem text="区域搜索" Cmd="QYSS " tip="选择一系列曲线，计算能构成的闭合面" />
+                  <MenuItem text="批量填充" Cmd="BatchHatch " tip="选择一系列曲线，计算能构成的闭合填充" />
+    <MenuItem text="临时隐藏" Cmd="TempHide " tip="将选择的对象暂时隐藏起来" />
+<MenuItem text="隐藏其它" Cmd="TempHideOther " tip="将选择的对象以外的对象暂时隐藏起来" />
+    <MenuItem text="恢复显示" Cmd="RoolbackShow " tip="恢复显示所有的暂时隐藏的对象" />
+<MenuItem text="图层匹配" Cmd="layermatchprop " tip="CAD特性匹配(格式刷)功能增加了图层过滤" />
+<MenuItem text="类型匹配" Cmd="typematchprop " tip="CAD特性匹配(格式刷)功能增加了类型过滤" />
+	</MenuItem>
+        <MenuItem text="块工具" Cmd="">
+               <MenuItem text="改块基点" Cmd="BlockBasePt " tip="修改块的基点" />
+               <MenuItem text="改块名称" Cmd="ModifyBlcokName " tip="修改块的名称" />
+               <MenuItem text="快定义块" Cmd="QuickBlockDefine " tip="快速定义块" />
+               <MenuItem text="属性转字" Cmd="AttrToTxt " tip="将属性分解为文字" />
+               <MenuItem text="块爆破" Cmd="BlastBlock " tip="将块完全分解并将属性分解为文字" />
+	</MenuItem>
+        <MenuItem text="标注" Cmd="">
+	      <MenuItem text="坐标标注" Cmd="DimXY " tip="标注XY坐标" />
+		  <MenuItem text="多线标注" Cmd="DimPLine " tip="逐个标注曲线上的各顶点" />
+<MenuItem text="天正坐标" Cmd="DimXYTZ " tip="标注XY坐标,置换XY并除以1000" />
+		  <MenuItem text="天正多线" Cmd="DimPLineTZ " tip="逐个标注曲线上的各顶点,置换XY并除以1000" />
+<MenuItem text="文字标注" Cmd="cadgj_DimText " tip="标注文字" />
+<MenuItem text="标坐标点" Cmd="cadgj_DimCoords " tip="以表格的形式标注曲线的所有点" />
+<MenuItem text="线性标注" Cmd="cadgj_DimXX " tip="线性标注" />
+<MenuItem text="对齐标注" Cmd="cadgj_DimDQ " tip="对齐标注" />
+<MenuItem text="标注断开" Cmd="cadgj_bzdk " tip="标注断开" />
+<MenuItem text="标注合并" Cmd="cadgj_bzhb " tip="标注合并" />
+	</MenuItem>
+        <MenuItem text="快速选择" Cmd="">
+		<MenuItem text="图层类型" Cmd="SimpleSel " tip="根据图层和类型选择对象" />
+		<MenuItem text="同类对象" Cmd="SelSameEntity " tip="选中所有同类对象" />
+		<MenuItem text="颜色选择" Cmd="SelectByColor " tip="选中所有同颜色的对象" />
+		<MenuItem text="多色选择" Cmd="SelectByMultColor " tip="选中所有同颜色(多种)的对象" />
+        </MenuItem>
+	<MenuItem text="图层" Cmd="">
+	      <MenuItem text="当前图层" Cmd="AssSetCurLayer " tip="设置选中对象所在的图层为当前层" />
+	      <MenuItem text="关闭图层" Cmd="CloseSelLayer " tip="关闭选中对象所在的图层" />
+	      <MenuItem text="关闭其它" Cmd="CloseSelOtherLayer " tip="关闭选中对象所在的图层以外的图层" />
+	      <MenuItem text="打开所有" Cmd="OpenAllLayer " tip="打开所有图层" />
+              <MenuItem text="全开所有" Cmd="OpenExAllLayer " tip="打开、解锁、解冻所有图层" />
+	      <MenuItem text="冻结图层" Cmd="FrozenSelLayer " tip="冻结选中对象所在的图层" />
+              <MenuItem text="冻结其它" Cmd="FrozenSelOtherLayer " tip="冻结选中对象所在的图层以外的图层" />
+	      <MenuItem text="解冻所有" Cmd="UnFrozenAllLayer " tip="解冻所有图层" />
+	      <MenuItem text="锁定图层" Cmd="LockSelLayer " tip="锁定选中对象所在的图层" />
+              <MenuItem text="锁定其它" Cmd="LockSelOtherLayer " tip="锁定选中对象所在的图层以外的图层" />
+	      <MenuItem text="解锁图层" Cmd="UnLockSelLayer " tip="解锁选中对象所在的图层" />
+              <MenuItem text="解锁所有" Cmd="UnLockAllLayer " tip="解锁所有图层" />
+              <MenuItem text="图层规整" Cmd="StandLayer " tip="将文字、标注、填充置于设定的图层上" />
+              <MenuItem text="图层排序" Cmd="SortLayer " tip="排图层显示顺序" />
+	</MenuItem>
+	<MenuItem text="统一颜色" Cmd="">
+	      <MenuItem text="统一黑白" Cmd="AllBlack " tip="统一所有对象为白[黑]色" />
+		  <MenuItem text="选择黑白" Cmd="SelectBlack " tip="统一选择的对象为白[黑]色" />
+		  <MenuItem text="统一改色" Cmd="AllSelColor " tip="统一所有对象为选中的颜色" />
+		  <MenuItem text="选择改色" Cmd="SelSelColor " tip="统一所有选择的对象为选中的颜色" />
+		  <MenuItem text="恢复原色" Cmd="SameColorRollback " tip="恢复对象原来的颜色" />
+	</MenuItem>
+	<MenuItem text="统计" Cmd="">
+	      <MenuItem text="面积统计" Cmd="CalcArea " tip="统计曲线面积" />
+		  <MenuItem text="剪贴面积" Cmd="CalcArea1 " tip="统计曲线面积，并拷贝到剪贴板上" />
+		  <MenuItem text="长度统计" Cmd="calcLength " tip="统计曲线长度" />
+		  <MenuItem text="剪贴长度" Cmd="calcLength1 " tip="统计曲线长度，并拷贝到剪贴板上" />
+		  <MenuItem text="块统计" Cmd="CountBlock " tip="统计选定块的数量" />
+                  <MenuItem text="文字统计" Cmd="TextStatistics " tip="统计文字内容和数量，输出统计表格" />
+                  <MenuItem text="填充统计" Cmd="HatchStatistics " tip="统计填充名称，面积和数量，输出统计表格" />
+	</MenuItem>
+	<MenuItem text="表格XLS" Cmd="">
+	      <MenuItem text="导入XLS" Cmd="AssInsertXls " tip="将Excel表格文件导入CAD生成CAD表格" />
+		  <MenuItem text="导出XLS" Cmd="AssToExcel " tip="将CAD表格导出生成Excel表格文件" />
+		  <MenuItem text="表格对齐" Cmd="TableAlign " tip="设置CAD表格中文字的对齐方式" />
+<MenuItem text="导出坐标" Cmd="cadgj_ExportPoints " tip="将多段线的坐标导出为Excel表格文件" />
+<MenuItem text="导入坐标" Cmd="cadgj_ImportPoints " tip="将Excel表格文件导入为多段线的坐标" />
+<MenuItem text="导出标注" Cmd="cadgj_ExportDims " tip="将各种CAD标注内容和类型导出为Excel表格文件" />
+	</MenuItem>
+	<MenuItem text="鼠标预览" Cmd="MousePreview " tip="鼠标停留在每个实体上面，显示其属性" />
+	<MenuItem text="图档工具" Cmd="">
+    <MenuItem text="定位当前" Cmd="SelCurFile " tip="定位当前文件" />
+              <MenuItem text="图纸比较" Cmd="cadgj_tzbj " tip="图纸比较，文件夹比较，对比改图" />
+	      <MenuItem text="格式转换" Cmd="GSZH " tip="将当前图纸全部或部分转换为其它格式" />
+	      <MenuItem text="一键清理" Cmd="AssPurge " tip="一键清理图纸中所有未用到的资源" />
+		  <MenuItem text="批量清理" Cmd="BatchPurge " tip="批量清理一系列图纸中所有未用到的资源" />
+		  <MenuItem text="统一版本" Cmd="SameDwgVer " tip="统一一系列DWG文件的版本" />
+		  <MenuItem text="图纸防改" Cmd="ProtectEnts " tip="防止图纸被修改" />
+		  <MenuItem text="插二维码" Cmd="QrCode " tip="在图纸中插入二维码" />
+		  <MenuItem text="插条形码" Cmd="BarCode " tip="在图纸中插入条形码" />
+		  <MenuItem text="去教育版" Cmd="qjyb " tip="去除文件中的教育版戳记" />
+                  <MenuItem text="批量打印" Cmd="cadgj_BatchPlot " tip="批量打印文件" />
+                  <MenuItem text="图纸合并" Cmd="cadgj_tzhb " tip="将多个图纸合并成一张图纸，方便批量打印和阅读" />
+	</MenuItem>
+	<MenuItem text="软件注册" Cmd="AssReg "/>
+	<MenuItem text="帮助" Cmd="">
+	      <MenuItem text="官网" Cmd="AssistantWebSite " />
+		  <MenuItem text="论坛求助" Cmd="BBSSeekhelp " />
+		  <MenuItem text="报告错误" Cmd="AssistantError " />
+		  <MenuItem text="功能建议" Cmd="AssistantSuggest " />
+		  <MenuItem text="使用说明" Cmd="AssistantDoc " />
+		  <MenuItem text="最新版本" Cmd="AssistantUpdate " />
+	</MenuItem>
+<MenuItem text="系统配置" Cmd="SystemConfig " tip="设置CAD好帮手系统，绘图比例，出图比例，图层，标注样式等" />
+<MenuItem text="屏幕菜单" Cmd="cadgj_showmenu " tip="显示/关闭 屏幕菜单" />
+</Menu>
+</Menus>
+</ScreenMenu>

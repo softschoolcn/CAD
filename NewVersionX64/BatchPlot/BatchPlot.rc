@@ -1,0 +1,238 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "BatchPlot ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "BatchPlot"
+            VALUE "LegalCopyright", "Copyright ?2002"
+            VALUE "OriginalFilename", "BatchPlot.arx"
+            VALUE "ProductName", "BatchPlot Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_BATCHPLOT DIALOGEX 0, 0, 659, 366
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量打印"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,542,345,50,14
+    PUSHBUTTON      "取消",IDCANCEL,602,345,50,14
+    CONTROL         "自定义1",IDC_GRID,"MFCGridCtrl",WS_TABSTOP,7,119,645,191
+    CONTROL         "打印到文件",IDC_CHECK_PLOTFILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,313,56,10
+    EDITTEXT        IDC_EDIT_PATH,64,325,143,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_PATH,207,325,13,14
+    LTEXT           "文件存放目录:",IDC_STATIC,11,327,52,8
+    LTEXT           "打印机：",IDC_STATIC,11,87,33,8
+    COMBOBOX        IDC_COMBO_PLOTER,49,85,248,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "框选图框",IDC_BUTTON_SELECT,487,345,50,14,NOT WS_VISIBLE
+    CONTROL         "统一图幅",IDC_CHECK_UNISIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,411,104,48,10
+    CONTROL         "统一样式表",IDC_CHECK_UNISTYLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,503,104,56,10
+    CONTROL         "统一份数",IDC_CHECK_UNINUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,587,104,48,10
+    EDITTEXT        IDC_EDIT_FLODER,49,62,247,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "文件夹：",IDC_STATIC,11,66,33,8
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSERFLODER,303,62,50,14
+    COMBOBOX        IDC_COMBO_DESCPLOT,305,85,73,30,CBS_DROPDOWN | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "图框识别",IDC_STATIC,12,9,640,46
+    RADIOBUTTON     "图框是块参照",IDC_RADIO_BLOCKREF,18,22,64,10
+    EDITTEXT        IDC_EDIT_FRAMENAME,144,19,198,14,ES_AUTOHSCROLL
+    CONTROL         "图框名称",IDC_CHECK_FRAMENAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,20,48,10
+    EDITTEXT        IDC_EDIT_FRMAELAYER,144,36,168,14,ES_AUTOHSCROLL
+    CONTROL         "图框图层",IDC_CHECK_FRAMELAYER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,37,48,10
+    PUSHBUTTON      "刷新图框",IDC_BUTTON_REFURSH,49,101,50,14
+    EDITTEXT        IDC_EDIT_EXT,266,324,54,14,ES_AUTOHSCROLL
+    LTEXT           "文件后缀",IDC_STATIC,225,328,33,8
+    RADIOBUTTON     "图框是闭合内外框",IDC_RADIO_BHX,349,22,80,10
+    EDITTEXT        IDC_EDIT_BHXLAYER,448,36,198,14,ES_AUTOHSCROLL
+    CONTROL         "闭合框图层",IDC_CHECK_BHXLAYER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,389,38,56,10
+    CONTROL         "多段线",IDC_CHECK_PLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,440,22,40,10
+    CONTROL         "直线",IDC_CHECK_LINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,495,22,32,10
+    GROUPBOX        "打印顺序",IDC_STATIC,383,60,256,38
+    RADIOBUTTON     "从左往右打印，至上而下打印",IDC_RADIO_LRTB,391,72,120,10
+    RADIOBUTTON     "从上往下打印，至左而右打印",IDC_RADIO_TBLR,391,85,120,10
+    CONTROL         "合并PDF文件",IDC_CHECK_JOINPDF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,344,61,10
+    CONTROL         "删除中间PDF文件",IDC_CHECK_DELMIDPDF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,344,77,10
+    CONTROL         "如果长宽比更合适的话，允许旋转90度打印",IDC_CHECK_ALLOW90,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,158,344,168,10
+    PUSHBUTTON      "选择实体确定图层",IDC_BUTTON_SELENT,317,36,67,14
+END
+
+IDD_DIALOG_TRANS DIALOGEX 0, 0, 380, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DWG格式转换"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,214,225,50,14
+    PUSHBUTTON      "取消",IDCANCEL,278,225,50,14
+    GROUPBOX        "转换格式",IDC_STATIC,15,9,185,35
+    CONTROL         "JPG",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,25,28,10
+    CONTROL         "TIF",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,25,27,10
+    CONTROL         "PDF",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,25,29,10
+    GROUPBOX        "颜色设置",IDC_STATIC,15,44,186,40
+    CONTROL         "转换成黑白图",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,63,64,10
+    GROUPBOX        "输出对象",IDC_STATIC,15,84,187,55
+    PUSHBUTTON      "CAD屏幕范围",IDC_BUTTON1,25,105,59,14
+    PUSHBUTTON      "选择范围",IDC_BUTTON2,93,122,59,14
+    PUSHBUTTON      "选择对象",IDC_BUTTON3,25,122,59,14
+    GROUPBOX        "大小设置",IDC_STATIC,208,9,165,200
+    GROUPBOX        "输出文件",IDC_STATIC,15,141,186,68
+    LTEXT           "文件目录(留空表示当前文件所在的目录)",IDC_STATIC,22,153,142,8
+    EDITTEXT        IDC_EDIT4,22,162,155,14,ES_AUTOHSCROLL
+    LTEXT           "文件名称(留空表示当前文件名称)",IDC_STATIC,21,178,118,8
+    EDITTEXT        IDC_EDIT5,21,189,155,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "所有对象",IDC_BUTTON4,93,105,59,14
+    LTEXT           "当前模式:",IDC_STATIC_ENTMODE,25,95,93,8
+    PUSHBUTTON      "...",IDC_BUTTON5,180,162,16,15
+    CONTROL         "ISO A0 (1189.00 x 841.00 毫米)",IDC_RADIO_A0,"Button",BS_AUTORADIOBUTTON,218,24,121,10
+    CONTROL         "ISO A1 (841.00 x 594.00 毫米)",IDC_RADIO_A1,"Button",BS_AUTORADIOBUTTON,218,40,117,10
+    CONTROL         "ISO A2 (594.00 x 420.00 毫米)",IDC_RADIO_A2,"Button",BS_AUTORADIOBUTTON,218,56,117,10
+    CONTROL         "ISO A3 (420.00 x 297.00 毫米)",IDC_RADIO_A3,"Button",BS_AUTORADIOBUTTON,218,72,117,10
+    CONTROL         "ISO A4 (297.00 x 210.00 毫米)",IDC_RADIO_A4,"Button",BS_AUTORADIOBUTTON,218,88,117,10
+    LTEXT           "选择纸张大小时\r\n无需考虑横向图纸和纵向图纸\r\n系统会根据图纸的横向和纵向\r\n自动选择",IDC_STATIC,222,104,137,39
+    CONTROL         "EPS",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,120,25,28,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_BATCHPLOT DLGINIT
+BEGIN
+    IDC_COMBO_DESCPLOT, 0x403, 13, 0
+0xd3b4, 0xf3ba, 0xf2cf, 0xb0c7, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO_DESCPLOT, 0x403, 13, 0
+0xd3b4, 0xb0c7, 0xf2cf, 0xf3ba, 0xf2b4, 0xa1d3, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_BATCHPLOT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 652
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 359
+    END
+
+    IDD_DIALOG_TRANS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "BatchPlot"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject ProjectType="Visual C++" Version="7.00" Name="CADTextTools" ProjectGUID="{AADDF0C5-90D3-48E4-9EBB-97A8CEF64CA4}">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <Configurations>
+    <Configuration Name="Debug|Win32" OutputDirectory="..\Debug\sys16" IntermediateDirectory="..\TMP\Debug\sys16\CADTextTools" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalIncludeDirectories="D:\GOLD_CODE\LIB库文件\objectarx2005\inc" PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CADTEXTTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="FALSE" MinimalRebuild="TRUE" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="4" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADTextTools.arx" LinkIncremental="2" AdditionalLibraryDirectories="D:\GOLD_CODE\LIB库文件\objectARX2005\lib" LinkDLL="TRUE" ModuleDefinitionFile="CADTextTools.def" GenerateDebugInformation="TRUE" ProgramDatabaseFile="$(OutDir)/CADTextTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADTextTools.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+    <Configuration Name="Release|Win32" OutputDirectory="..\Release\sys16" IntermediateDirectory="..\TMP\Release\sys16\CADTextTools" ConfigurationType="2" UseOfMFC="2" CharacterSet="2">
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalIncludeDirectories="C:\lib\objectarx2005\inc" PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CADTEXTTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="TRUE" MinimalRebuild="FALSE" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="TRUE" RuntimeTypeInfo="TRUE" UsePrecompiledHeader="2" WarningLevel="1" Detect64BitPortabilityProblems="TRUE" DebugInformationFormat="0" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADTextTools.arx" LinkIncremental="2" AdditionalLibraryDirectories="C:\lib\objectarx2005\lib" LinkDLL="TRUE" ModuleDefinitionFile="CADTextTools.def" GenerateDebugInformation="FALSE" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADTextTools.lib" TargetMachine="1" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCPostBuildEventTool" />
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG" Culture="1033" AdditionalIncludeDirectories="$(IntDir)" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCWebDeploymentTool" />
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;idl;odl">
+      <File RelativePath="CADTextTools.cpp">
+      </File>
+      <File RelativePath="CADTextTools.def">
+      </File>
+      <File RelativePath="CommCommand.cpp">
+      </File>
+      <File RelativePath="DocData.cpp">
+      </File>
+      <File RelativePath="GFindDialog.cpp">
+      </File>
+      <File RelativePath="GFindExt.cpp">
+      </File>
+      <File RelativePath="GFindParam.cpp">
+      </File>
+      <File RelativePath="GFindResultItem.cpp">
+      </File>
+      <File RelativePath="GFindTypeDialog.cpp">
+      </File>
+      <File RelativePath="GFindTypes.cpp">
+      </File>
+      <File RelativePath="GTextEditorDialog.cpp">
+      </File>
+      <File RelativePath="GTextTools.cpp">
+      </File>
+      <File RelativePath="StdAfx.cpp">
+      </File>
+      <File RelativePath="acrxEntryPoint.cpp">
+      </File>
+      <File RelativePath=".\GBatchCopyDialog.cpp" />
+      <File RelativePath=".\GDateTimeDialog.cpp" />
+      <File RelativePath=".\GItemSelectDialog.cpp" />
+      <File RelativePath=".\GlobalFunction.cpp" />
+      <File RelativePath=".\GMTextDialog.cpp" />
+      <File RelativePath=".\GTextBrushDialog.cpp" />
+      <File RelativePath=".\GTextDialog.cpp" />
+      <File RelativePath=".\GTextJig.cpp" />
+      <File RelativePath=".\TextCommCommand.cpp" />
+      <File RelativePath=".\TextCrossReportFunction.cpp" />
+      <File RelativePath=".\TextCrossReportPanel.cpp" />
+      <File RelativePath=".\TextCrossReportPanelChildDlg.cpp" />
+      <File RelativePath=".\TextStatistics.cpp" />
+    </Filter>
+    <Filter Name="Include Files" Filter="h;hh;hxx">
+      <File RelativePath="CommCommand.h">
+      </File>
+      <File RelativePath="DocData.h">
+      </File>
+      <File RelativePath="GFindDialog.h">
+      </File>
+      <File RelativePath="GFindExt.h">
+      </File>
+      <File RelativePath="GFindParam.h">
+      </File>
+      <File RelativePath="GFindResultItem.h">
+      </File>
+      <File RelativePath="GFindTypeDialog.h">
+      </File>
+      <File RelativePath="GFindTypes.h">
+      </File>
+      <File RelativePath="GTextEditorDialog.h">
+      </File>
+      <File RelativePath="GTextTools.h">
+      </File>
+      <File RelativePath="GWndEx.h">
+      </File>
+      <File RelativePath="Resource.h">
+      </File>
+      <File RelativePath="StdAfx.h">
+      </File>
+      <File RelativePath=".\GLockDocument.h" />
+      <File RelativePath=".\GBatchCopyDialog.h" />
+      <File RelativePath=".\GDateTimeDialog.h" />
+      <File RelativePath=".\GItemSelectDialog.h" />
+      <File RelativePath=".\GlobalFunction.h" />
+      <File RelativePath=".\GMTextDialog.h" />
+      <File RelativePath=".\GTextBrushDialog.h" />
+      <File RelativePath=".\GTextDialog.h" />
+      <File RelativePath=".\GTextJig.h" />
+      <File RelativePath=".\TextCommCommand.h" />
+      <File RelativePath=".\TextCrossDefine.h" />
+      <File RelativePath=".\TextCrossReportFunction.h" />
+      <File RelativePath=".\TextCrossReportPanel.h" />
+      <File RelativePath=".\TextCrossReportPanelChildDlg.h" />
+      <File RelativePath=".\TextStatistics.h" />
+    </Filter>
+    <Filter Name="Resource Files" Filter="rc;ico;bmp;cur;jpg;gif">
+      <File RelativePath="CADTextTools.rc">
+      </File>
+    </Filter>
+    <Filter Name="Miscellaneous Files" Filter="reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>

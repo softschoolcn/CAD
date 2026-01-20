@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject ProjectType="Visual C++" Version="9.00" Name="CADConfigTools" ProjectGUID="{153EC5E8-63CE-4EA7-95A2-2762B4626ABA}" RootNamespace="CADConfigTools" TargetFrameworkVersion="196613">
+  <Platforms>
+    <Platform Name="Win32" />
+    <Platform Name="x64" />
+  </Platforms>
+  <ToolFiles>
+  </ToolFiles>
+  <Configurations>
+    <Configuration Name="Debug|Win32" OutputDirectory="..\Debug\sys18" IntermediateDirectory="..\TMP\Debug\sys18\CADConfigTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCONFIGTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="false" MinimalRebuild="true" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="4" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADConfigTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OutDir)/CADConfigTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADConfigTools.lib" TargetMachine="1" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Debug|x64" OutputDirectory="..\Debug\sys18(X64)" IntermediateDirectory="..\TMP\Debug\sys18(X64)\CADConfigTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" TargetEnvironment="3" />
+      <Tool Name="VCCLCompilerTool" Optimization="0" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="_WIN64;_WINDOWS;CADCONFIGTOOLS_MODULE;_AFXEXT;_ACRXAPP" StringPooling="false" MinimalRebuild="true" BasicRuntimeChecks="3" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="3" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADConfigTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="true" ProgramDatabaseFile="$(OutDir)/CADConfigTools.pdb" SubSystem="2" ImportLibrary="$(OutDir)/CADConfigTools.lib" TargetMachine="17" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Release|Win32" OutputDirectory="..\Release\sys18" IntermediateDirectory="..\Release\sys18\CADConfigTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCONFIGTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP" StringPooling="true" MinimalRebuild="false" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="0" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADConfigTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="false" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADConfigTools.lib" TargetMachine="1" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="Release|x64" OutputDirectory="..\Release\sys18(X64)" IntermediateDirectory="..\TMP\Release\sys18(X64)\CADConfigTools" ConfigurationType="2" UseOfMFC="2" UseOfATL="0" CharacterSet="1" ManagedExtensions="0">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" TargetEnvironment="3" />
+      <Tool Name="VCCLCompilerTool" Optimization="2" AdditionalUsingDirectories="c:\Program Files\AutoCAD" PreprocessorDefinitions="WIN32;_WINDOWS;CADCONFIGTOOLS_MODULE;NDEBUG;_AFXEXT;_ACRXAPP" StringPooling="true" MinimalRebuild="false" BasicRuntimeChecks="0" RuntimeLibrary="2" BufferSecurityCheck="true" TreatWChar_tAsBuiltInType="true" ForceConformanceInForLoopScope="true" RuntimeTypeInfo="true" UsePrecompiledHeader="2" WarningLevel="1" DebugInformationFormat="0" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCLinkerTool" OutputFile="$(outdir)/CADConfigTools.arx" LinkIncremental="2" LinkDLL="true" GenerateDebugInformation="false" ProgramDatabaseFile="" SubSystem="2" ImportLibrary="$(OutDir)/CADConfigTools.lib" TargetMachine="17" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCManifestTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCAppVerifierTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;idl;odl">
+      <File RelativePath=".\acrxEntryPoint.cpp">
+      </File>
+      <File RelativePath=".\CADConfigTools.cpp">
+      </File>
+      <File RelativePath=".\DocData.cpp">
+      </File>
+      <File RelativePath=".\GCADFonts.cpp">
+      </File>
+      <File RelativePath=".\GColorButton.cpp">
+      </File>
+      <File RelativePath=".\GCommandAliasDlg.cpp">
+      </File>
+      <File RelativePath=".\GCommandHideDialog.cpp">
+      </File>
+      <File RelativePath=".\GConfigCommand.cpp">
+      </File>
+      <File RelativePath=".\GConfigReader.cpp">
+      </File>
+      <File RelativePath=".\GDimConfigDialog.cpp">
+      </File>
+      <File RelativePath=".\GLayerConfigDialog.cpp">
+      </File>
+      <File RelativePath=".\GMainConfigDialog.cpp">
+      </File>
+      <File RelativePath=".\GsPreviewCtrl.cpp">
+      </File>
+      <File RelativePath=".\GSystemConfigDialog.cpp">
+      </File>
+      <File RelativePath=".\rxdebug.cpp">
+      </File>
+      <File RelativePath=".\StdAfx.cpp">
+        <FileConfiguration Name="Debug|Win32">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Debug|x64">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Release|Win32">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+        <FileConfiguration Name="Release|x64">
+          <Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1" />
+        </FileConfiguration>
+      </File>
+    </Filter>
+    <Filter Name="Include Files" Filter="h;hh;hxx">
+      <File RelativePath=".\ConfigToolsHeaders.h">
+      </File>
+      <File RelativePath=".\DocData.h">
+      </File>
+      <File RelativePath=".\GCADFonts.h">
+      </File>
+      <File RelativePath=".\GColorButton.h">
+      </File>
+      <File RelativePath=".\GCommandAliasDlg.h">
+      </File>
+      <File RelativePath=".\GCommandHideDialog.h">
+      </File>
+      <File RelativePath=".\GConfigCommand.h">
+      </File>
+      <File RelativePath=".\GConfigReader.h">
+      </File>
+      <File RelativePath=".\GDimConfigDialog.h">
+      </File>
+      <File RelativePath=".\GLayerConfigDialog.h">
+      </File>
+      <File RelativePath=".\GMainConfigDialog.h">
+      </File>
+      <File RelativePath=".\GsPreviewCtrl.h">
+      </File>
+      <File RelativePath=".\GSystemConfigDialog.h">
+      </File>
+      <File RelativePath=".\Resource.h">
+      </File>
+      <File RelativePath=".\rxdebug.h">
+      </File>
+      <File RelativePath=".\StdAfx.h">
+      </File>
+    </Filter>
+    <Filter Name="Resource Files" Filter="rc;ico;bmp;cur;jpg;gif">
+      <File RelativePath=".\CADConfigTools.rc">
+      </File>
+      <File RelativePath=".\idi_cros.cur" />
+      <File RelativePath=".\idi_orbi.cur" />
+      <File RelativePath=".\idi_pan.cur" />
+    </Filter>
+    <Filter Name="Miscellaneous Files" Filter="reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>

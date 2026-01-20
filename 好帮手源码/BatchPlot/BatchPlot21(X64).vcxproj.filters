@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53850a7f-331a-4eae-9bb0-fee9875321bc}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{c7f21735-b6ce-4de7-b086-b27d0333f80a}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d1c70ff8-195a-4b60-972f-bbd918ba1fac}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{4d0fef28-07a6-41dd-b5c3-c2c22736f668}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchPlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GBatchPlotDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFrameBorderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlotDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlotHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlotSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTextToPlineCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CommFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GPlotDpiConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GsFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GTransConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GTransConfigDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlotSettings.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GBatchPlotDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFrameBorderHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLockDocument.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlotDefine.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlotHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTextToPlineCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GWndEx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CommFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GPlotDpiConfig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GsFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GTransConfig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GTransConfigDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BatchPlot.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

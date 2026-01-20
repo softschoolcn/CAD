@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Root>
+<Ploter Name="Default Windows System Printer.pc3" Ext="plt"/>
+<Ploter Name="DWF6 ePlot.pc3" Ext="dwf"/>
+<Ploter Name="DWG To PDF.pc3" Ext="pdf"/>
+<Ploter Name="DWFx ePlot (XPS Compatible).pc3" Ext="dwfx"/>
+<Ploter Name="Microsoft XPS Document Writer" Ext="plt"/>
+<Ploter Name="PublishToWeb JPG.pc3" Ext="jpg"/>
+<Ploter Name="PublishToWeb PNG.pc3" Ext="png"/>
+</Root>

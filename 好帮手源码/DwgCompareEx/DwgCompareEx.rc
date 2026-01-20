@@ -1,0 +1,233 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "DwgCompareEx ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DwgCompareEx"
+            VALUE "LegalCopyright", "Copyright ?2002"
+            VALUE "OriginalFilename", "DwgCompareEx.arx"
+            VALUE "ProductName", "DwgCompareEx Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_OPTION DIALOGEX 0, 0, 380, 282
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图纸比较(专业版)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,210,266,50,14
+    PUSHBUTTON      "取消",IDCANCEL,281,265,50,14
+    GROUPBOX        "比较模式",IDC_STATIC,7,4,359,50
+    RADIOBUTTON     "位置模式(根据对象的位置是否相同，判断是否是相同的对象，比较速度慢于句柄模式)",IDC_RADIO_POSTION,13,16,317,10,WS_DISABLED
+    RADIOBUTTON     "句柄模式(根据对象的句柄是否相同，判断是否是相同的对象，只能比较修改后再次保存的文件)",IDC_RADIO_HANDLE,13,28,349,10
+    GROUPBOX        "比较范围",IDC_STATIC,7,55,359,99
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,15,87,205,64
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,224,87,137,64
+    GROUPBOX        "颜色设置",IDC_STATIC,7,154,323,48
+    GROUPBOX        "比较文件",IDC_STATIC_CMPFILES,7,201,356,63
+    COMBOBOX        IDC_COMBO1,39,165,100,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "相同",IDC_STATIC,15,168,17,8
+    COMBOBOX        IDC_COMBO2,173,165,100,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "修改",IDC_STATIC,149,168,17,8
+    COMBOBOX        IDC_COMBO3,39,182,100,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "新增",IDC_STATIC,15,184,17,8
+    COMBOBOX        IDC_COMBO4,173,182,100,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "删除",IDC_STATIC,149,184,17,8
+    EDITTEXT        IDC_EDIT1,50,224,242,14,ES_AUTOHSCROLL
+    LTEXT           "文件1",IDC_STATIC_FILE1,16,227,29,8
+    PUSHBUTTON      "...",IDC_BUTTON1,298,224,27,14
+    EDITTEXT        IDC_EDIT2,50,243,242,14,ES_AUTOHSCROLL
+    LTEXT           "文件2",IDC_STATIC_FILE2,16,246,32,8
+    PUSHBUTTON      "...",IDC_BUTTON2,298,243,27,14
+    RADIOBUTTON     "比较两个文件",IDC_RADIO_CMPFILE,51,211,64,10
+    RADIOBUTTON     "比较两个文件夹",IDC_RADIO_CMPFLODER,141,212,72,10,WS_DISABLED
+    RADIOBUTTON     "对比查看模式(本模式下仅展现双屏对比查看，视图同步缩放，由您自己进行比较)",IDC_RADIO_LOOKONLY,13,40,301,10,WS_DISABLED
+    CONTROL         "原图比较",IDC_CHECK_SOURCEFILE,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,225,212,48,10
+    CONTROL         "忽略关闭图层",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,64,64,10
+    CONTROL         "忽略锁定图层",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,74,64,10
+    LTEXT           "始终忽略下列图层,多个图层以分号隔开,尤其是地形图",IDC_STATIC,86,61,190,8
+    EDITTEXT        IDC_EDIT3,86,70,275,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "文档1...",IDC_BUTTON_DOC1,328,224,32,14
+    PUSHBUTTON      "文档2...",IDC_BUTTON_DOC2,328,242,31,14
+END
+
+IDD_DLG_REPORT DIALOGEX 0, 0, 395, 114
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "图纸比较差异结果",IDC_GROUP_LEFT,98,73,126,34
+    GROUPBOX        "差异列表",IDC_GROUP_RIGHT,227,73,158,34
+    CONTROL         "",IDC_LIST_RIGHT,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,231,83,147,13
+    CONTROL         "",IDC_LIST_LEFT,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,102,83,118,15
+    GROUPBOX        "文件列表",IDC_STATIC_FILES,12,73,81,34
+    CONTROL         "",IDC_LIST_FILES,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,18,83,71,19
+    LTEXT           "文件对比查看，对比过程中请不要关闭此面板，否则可能导致无法进行视图同步缩放",IDC_STATIC_MLDBCK,22,16,297,8
+    LTEXT           "对比文件1",IDC_STATIC_DBWJ1,22,26,358,8
+    LTEXT           "对比文件2",IDC_STATIC_DBWJ2,22,35,358,8
+    LTEXT           "内容被修改为：(红色修改,加删除线删除,蓝色增加)",IDC_STATIC_SOURCETEXT,68,63,180,8
+    CONTROL         "",IDC_RICHEDIT_SOURCETEXT,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | WS_BORDER | WS_TABSTOP,15,60,26,14
+    CONTROL         "",IDC_RICHEDIT_MODIFYTEXT,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | WS_BORDER | WS_TABSTOP,45,60,22,14
+    CONTROL         "",IDC_LIST_SUB,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,250,62,62,13
+    PUSHBUTTON      "-->",IDC_BUTTON1,351,64,19,10
+    PUSHBUTTON      "<--",IDC_BUTTON3,372,64,19,10
+    PUSHBUTTON      "-->",IDC_BUTTON4,309,64,19,10
+    PUSHBUTTON      "<--",IDC_BUTTON5,329,64,19,10
+    PUSHBUTTON      "显示原始图颜色",IDC_BUTTON6,21,44,127,14
+END
+
+IDD_DIALOG_DOCLIST DIALOGEX 0, 0, 462, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择比较的文档"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,322,225,50,14
+    PUSHBUTTON      "取消",IDCANCEL,381,225,50,14
+    LISTBOX         IDC_LIST_DOC,17,16,428,201,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 281
+    END
+
+    IDD_DLG_REPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 392
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_DIALOG_DOCLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_THREESTATE          BITMAP                  "res\\threeStates.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "DwgCompareEx"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

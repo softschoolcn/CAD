@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2d5cfcab-e253-4cee-bd8d-7756ca865eaf}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{ff7b7322-50cd-4f59-8d14-66fa949437c8}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{265596a2-cc41-40e9-9e7a-9a51376cad38}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{5bf7253d-e5c3-45c2-a143-75a14ed5458d}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3f059d5a-e8cc-4f96-89d1-64972ef9229b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Afx">
+      <UniqueIdentifier>{c0929bb7-6de1-43d4-82bf-13475a27234f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Afx\Include Files">
+      <UniqueIdentifier>{b332122a-ce6b-45a6-9489-d67c977bd4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{29687854-73e7-43aa-bf50-07e520da6b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\Source Files">
+      <UniqueIdentifier>{39189642-812c-4ecc-a8af-b27d81f992a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CADCommTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcCommFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IEHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GHighlightHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveCommCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMultiJig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMultiJigEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCrossReportFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCrossReportPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCrossReportPanelChildDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XlsCommCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPurgeCommCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GSimpleSelDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GxAfxFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParcelViewInputPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMousePreviewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMousePreviewDocReactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPurgeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkLable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GComputerId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GRegDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HDID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GBarCodeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GBarCodeJig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GBarcodeMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMultJigEnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GQrCodeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GQrCodeJIg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GQrCodeMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAcGroupFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntAlignDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntAverPosDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTableAlignDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QR_Encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GQRCodeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GExportDimensionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GZYJXJig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GQrCodeCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCommandReactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcEdSSGetFilterEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GJoinDwgHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GJoinDwgDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemSelectDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Command_HatchStatistics.cpp">
+      <Filter>Command\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcCommFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLockDocument.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortArray.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GHighlightHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XlsCommCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveCommCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMultiJig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMultiJigEntity.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCrossReportFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCrossReportPanel.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCrossReportPanelChildDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMenu.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPurgeCommCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GSimpleSelDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GxAfxFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParcelViewInputPoint.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefine.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMousePreviewDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMousePreviewDocReactor.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPurgeDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLable.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteString.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GComputerId.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GRegDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDID.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQrCodeMgr.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GBarCodeDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GBarCodeJig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GBarcodeMgr.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMultJigEnt.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQrCodeDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQrCodeJIg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAcGroupFunction.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntAlignDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntAverPosDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcDbEntityPointerEx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportHeaders.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTableAlignDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QR_Encode.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQRCodeManager.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GExportDimensionDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GZYJXJig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQrCodeCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCommandReactor.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcEdSSGetFilterEx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GJoinDwgHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GJoinDwgDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemSelectDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GRegDefine.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GWndEx.h">
+      <Filter>Base\Afx\Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CADCommTools.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

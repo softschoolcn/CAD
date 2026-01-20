@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<Plugins>
+<Plugin RegKey="AGGridCtrl" App="GGridCtrl.arx" Desc="GridCtrl控件"></Plugin>
+<Plugin RegKey="ACADGlobalTools" App="CADGlobalTools.arx" Desc="GlobalTools"></Plugin>
+<Plugin RegKey="BCADConfigTools" App="CADConfigTools.arx" Desc="配置工具"></Plugin>
+<Plugin RegKey="CCADCommTools" App="CADCommTools.arx" Desc="核心工具"></Plugin>
+<Plugin RegKey="DCADTextTools" App="CADTextTools.arx" Desc="文字工具"></Plugin>
+<Plugin RegKey="DCADBlockTools" App="CADBlockTools.arx" Desc="块工具"></Plugin>
+<Plugin RegKey="DBatchPlot" App="BatchPlot.arx" Desc="批量打印转换工具"></Plugin>
+<Plugin RegKey="DwgCompareEx" App="DwgCompareEx.arx" Desc="图纸比较"></Plugin>
+<Plugin RegKey="RemoveEduStamp" App="RemoveEduStamp.arx" Desc="区教育版"></Plugin>
+</Plugins>
+</root>

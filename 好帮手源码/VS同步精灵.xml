@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <sln file="CADCommTools17.sln" filter="stdafx17.h" />
+  <sln file="CADCommTools16.sln" filter="*.def;stdafx16.h" />
+  <sln file="CADCommTools16.0.sln" filter="*.def;stdafx16.h" />
+  <sln file="CADCommTools18.sln" filter="stdafx18.h" />
+  <sln file="CADCommTools18(X64).sln" filter="stdafx18.h" />
+  <sln file="CADCommTools19.sln" filter="stdafx19.h" />
+  <sln file="CADCommTools19(X64).sln" filter="stdafx19.h" />
+</root>

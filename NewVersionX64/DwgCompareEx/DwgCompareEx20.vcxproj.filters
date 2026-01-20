@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53850a7f-331a-4eae-9bb0-fee9875321bc}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{c7f21735-b6ce-4de7-b086-b27d0333f80a}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d1c70ff8-195a-4b60-972f-bbd918ba1fac}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{4d0fef28-07a6-41dd-b5c3-c2c22736f668}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DwgCompareEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpBTRDiffFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpDiffFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpDwgDiffFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpExcute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpOptionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDialog_CmpText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDialog_Modify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDialog_OnTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDialog_SizeChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportDockPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpReportHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpSymbolDiffFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCmpResultInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GDocListDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GHttpService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GOpenCmdDocHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GSameDxfHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkLable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcProgressBar.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteString.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpBTRDiffFinder.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpConfig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpDefine.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpDiffFinder.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpDwgDiffFinder.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpExcute.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpItem.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpOptionDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpReportDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpReportDockPanel.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpReportHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpSymbolDiffFinder.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpType.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpUpdate.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommCommand.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCmpResultInstance.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GDocListDialog.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GHttpService.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLockDocument.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GOpenCmdDocHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GSameDxfHelper.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GViewTableRecord.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLable.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DwgCompareEx.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
