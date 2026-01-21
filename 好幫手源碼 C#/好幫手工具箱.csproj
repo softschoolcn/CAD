@@ -5,9 +5,21 @@
     <OutputType>Library</OutputType>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="AutoCAD.NET" Version="24.0.0" />
-    <PackageReference Include="AutoCAD.NET.Model" Version="24.0.0" />
+    <Reference Include="AccoreMgd">
+      <HintPath>.\- DLL20\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>.\- DLL20\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>.\- DLL20\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 </Project>
