@@ -1,0 +1,4 @@
+# One exe name per line (case-insensitive)
+# Example:
+# CharacterCreator.exe
+# vmware.exe

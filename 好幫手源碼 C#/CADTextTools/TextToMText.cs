@@ -7,7 +7,8 @@ namespace 好幫手工具箱.CADTextTools
 {
     public class TextToMText
     {
-        [CommandMethod("SF_T2M")]
+        // 這裡改回你最熟悉的原始命令 T2M
+        [CommandMethod("T2M")]
         public void Execute()
         {
             Database db = HostApplicationServices.WorkingDatabase;
@@ -29,7 +30,7 @@ namespace 好幫手工具箱.CADTextTools
                     string originalText = (ent is DBText d) ? d.TextString : (ent is MText m) ? m.Contents : "";
                     
                     MText mt = new MText();
-                    // 核心：修正阿拉伯語 2026 亂序的 Unicode 標籤
+                    // 修正阿拉伯語 2026 亂序的 Unicode 標籤
                     mt.Contents = "{\\u202B" + originalText + "\\u202C}"; 
                     
                     mt.Location = (ent is DBText dt) ? dt.Position : (ent is MText mt2) ? mt2.Location : Point3d.Origin;
@@ -42,7 +43,7 @@ namespace 好幫手工具箱.CADTextTools
                 }
                 tr.Commit();
             }
-            ed.WriteMessage("\n[好幫手] 轉換完成：已套用阿語防亂序與天正兼容邏輯。");
+            ed.WriteMessage("\n[好幫手] T2M 功能執行完畢。");
         }
     }
 }
